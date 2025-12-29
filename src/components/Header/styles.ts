@@ -19,6 +19,7 @@ export const LogoContainer = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  flex-shrink: 0;
   
   .logo-text {
     font-family: 'Marble Modern', sans-serif;
@@ -27,6 +28,23 @@ export const LogoContainer = styled(Link)`
     letter-spacing: -0.5px;
     line-height: 1;
     color: #D90404;
+    transition: opacity 0.3s ease-in-out;
+    
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .logo-text {
+      font-size: 28px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .logo-text {
+      font-size: 24px;
+    }
   }
 `;
 
@@ -50,13 +68,28 @@ export const CustomNavLink = styled("div")`
 
 export const Burger = styled("div")`
   @media only screen and (max-width: 890px) {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+    
+    &:hover {
+      background-color: rgba(217, 4, 4, 0.05);
+    }
+    
+    &:active {
+      background-color: rgba(217, 4, 4, 0.1);
+    }
   }
 
   display: none;
 
   svg {
     fill: #D90404;
+    transition: transform 0.3s ease-in-out;
   }
 `;
 
@@ -97,6 +130,18 @@ export const Label = styled("span")`
 
 export const Outline = styled(MenuOutlined)`
   font-size: 22px;
+  
+  @media only screen and (max-width: 890px) {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+  }
 `;
 
 export const Span = styled("span")`
@@ -112,28 +157,55 @@ export const Span = styled("span")`
   }
 `;
 
+export const MobileRightContainer = styled("div")`
+  display: none;
+
+  @media only screen and (max-width: 890px) {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    gap: 0.875rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    gap: 0.75rem;
+  }
+
+  @media only screen and (max-width: 360px) {
+    gap: 0.5rem;
+  }
+`;
+
 export const MobileButtonContainer = styled("div")`
   display: none;
 
   @media only screen and (max-width: 890px) {
     display: block;
-    margin-left: 0.75rem;
   }
 
   button {
     white-space: nowrap;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(217, 4, 4, 0.15);
     
     &:hover {
       transform: translateY(-1px);
-      box-shadow: 0 4px 8px rgba(217, 4, 4, 0.2);
+      box-shadow: 0 4px 8px rgba(217, 4, 4, 0.25);
+    }
+    
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 4px rgba(217, 4, 4, 0.15);
     }
   }
 
   @media only screen and (max-width: 768px) {
-    margin-left: 0.5rem;
-    
     button {
       padding: 0.5rem 1rem;
       font-size: 0.875rem;
@@ -141,19 +213,15 @@ export const MobileButtonContainer = styled("div")`
   }
 
   @media only screen and (max-width: 480px) {
-    margin-left: 0.4rem;
-    
     button {
-      padding: 0.4rem 0.8rem;
+      padding: 0.45rem 0.85rem;
       font-size: 0.8rem;
     }
   }
 
   @media only screen and (max-width: 360px) {
-    margin-left: 0.3rem;
-    
     button {
-      padding: 0.35rem 0.7rem;
+      padding: 0.4rem 0.75rem;
       font-size: 0.75rem;
     }
   }

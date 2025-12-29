@@ -14,6 +14,7 @@ import {
   Outline,
   Span,
   MobileButtonContainer,
+  MobileRightContainer,
 } from "./styles";
 
 const Header = ({ t }: { t: TFunction }) => {
@@ -75,28 +76,24 @@ const Header = ({ t }: { t: TFunction }) => {
     <HeaderSection>
       <Container>
         <Row justify="space-between" align="middle">
-          <Col flex="auto">
-            <Row align="middle" gutter={[12, 0]} wrap={false}>
-              <Col flex="none">
-                <LogoContainer to="/" aria-label="homepage">
-                  <div className="logo-text">redmobile</div>
-                </LogoContainer>
-              </Col>
-              <Col flex="none">
-                <MobileButtonContainer>
-                  <Button onClick={() => scrollTo("product")}>
-                    {t("Contact")}
-                  </Button>
-                </MobileButtonContainer>
-              </Col>
-            </Row>
+          <Col>
+            <LogoContainer to="/" aria-label="homepage">
+              <div className="logo-text">redmobile</div>
+            </LogoContainer>
           </Col>
           <NotHidden>
             <MenuItem />
           </NotHidden>
-          <Burger onClick={toggleButton}>
-            <Outline />
-          </Burger>
+          <MobileRightContainer>
+            <MobileButtonContainer>
+              <Button onClick={() => scrollTo("product")}>
+                {t("Contact")}
+              </Button>
+            </MobileButtonContainer>
+            <Burger onClick={toggleButton}>
+              <Outline />
+            </Burger>
+          </MobileRightContainer>
         </Row>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
           <Col style={{ marginBottom: "2.5rem" }}>
