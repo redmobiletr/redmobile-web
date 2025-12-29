@@ -8,7 +8,9 @@ export interface ButtonProps {
   color?: string;
   name?: string;
   children: React.ReactNode;
-  onClick?: () => void;
+  onClick?: (e?: React.MouseEvent<HTMLButtonElement>) => void;
+  type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 }
 
 export interface SvgIconProps {
@@ -20,7 +22,6 @@ export interface SvgIconProps {
 export interface InputProps {
   name: string;
   placeholder: string;
-  t: TFunction;
   type?: string;
   value?: string;
   onChange: (
@@ -33,4 +34,6 @@ export interface validateProps {
   name: string;
   message: string;
   email: string;
+  phone: string;
+  kvkkConsent: boolean;
 }

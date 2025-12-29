@@ -1,0 +1,5780 @@
+[
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "capacity": "64 GB",
+    "offer": "₺7.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "capacity": "128 GB",
+    "offer": "₺9.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "capacity": "256 GB",
+    "offer": "₺10.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "capacity": "64 GB",
+    "offer": "₺11.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "capacity": "256 GB",
+    "offer": "₺13.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "capacity": "512 GB",
+    "offer": "₺14.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "capacity": "64 GB",
+    "offer": "₺13.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺14.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺15.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "capacity": "64 GB",
+    "offer": "₺12.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "capacity": "128 GB",
+    "offer": "₺14.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "capacity": "256 GB",
+    "offer": "₺14.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Mini",
+    "capacity": "64 GB",
+    "offer": "₺10.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Mini",
+    "capacity": "128 GB",
+    "offer": "₺11.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Mini",
+    "capacity": "256 GB",
+    "offer": "₺12.200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "capacity": "128 GB",
+    "offer": "₺18.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "capacity": "256 GB",
+    "offer": "₺21.200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "capacity": "512 GB",
+    "offer": "₺21.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "capacity": "128 GB",
+    "offer": "₺20.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺22.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺25.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "capacity": "128 GB",
+    "offer": "₺20.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "capacity": "256 GB",
+    "offer": "₺21.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "capacity": "512 GB",
+    "offer": "₺25.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "capacity": "128 GB",
+    "offer": "₺17.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "capacity": "256 GB",
+    "offer": "₺17.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "capacity": "512 GB",
+    "offer": "₺19.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "capacity": "128 GB",
+    "offer": "₺29.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "capacity": "256 GB",
+    "offer": "₺30.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "capacity": "512 GB",
+    "offer": "₺35.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "capacity": "1 TB",
+    "offer": "₺36.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "capacity": "128 GB",
+    "offer": "₺32.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺35.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺36.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "capacity": "1 TB",
+    "offer": "₺39.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6",
+    "capacity": "128 GB",
+    "offer": "₺300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6 Plus",
+    "capacity": "128 GB",
+    "offer": "₺300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S",
+    "capacity": "128 GB",
+    "offer": "₺300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 6S Plus",
+    "capacity": "128 GB",
+    "offer": "₺300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "capacity": "32 GB",
+    "offer": "₺550"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "capacity": "128 GB",
+    "offer": "₺750"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 7",
+    "capacity": "256 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "capacity": "32 GB",
+    "offer": "₺950"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "capacity": "128 GB",
+    "offer": "₺1.250"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 7 Plus",
+    "capacity": "256 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "capacity": "64 GB",
+    "offer": "₺1.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "capacity": "128 GB",
+    "offer": "₺1.950"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8",
+    "capacity": "256 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "capacity": "64 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 8 Plus",
+    "capacity": "256 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE 2020",
+    "capacity": "64 GB",
+    "offer": "₺3.600"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE 2020",
+    "capacity": "128 GB",
+    "offer": "₺4.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE 2020",
+    "capacity": "256 GB",
+    "offer": "₺4.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone X",
+    "capacity": "64 GB",
+    "offer": "₺4.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone X",
+    "capacity": "256 GB",
+    "offer": "₺5.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "capacity": "64 GB",
+    "offer": "₺4.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "capacity": "128 GB",
+    "offer": "₺5.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "capacity": "256 GB",
+    "offer": "₺5.750"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "capacity": "64 GB",
+    "offer": "₺5.750"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "capacity": "256 GB",
+    "offer": "₺6.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "capacity": "512 GB",
+    "offer": "₺6.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "capacity": "64 GB",
+    "offer": "₺6.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "capacity": "256 GB",
+    "offer": "₺7.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "capacity": "512 GB",
+    "offer": "₺7.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE 2022",
+    "capacity": "128 GB",
+    "offer": "₺6.250"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE 2022",
+    "capacity": "256 GB",
+    "offer": "₺6.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone SE 2022",
+    "capacity": "64 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "capacity": "128 GB",
+    "offer": "₺25.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "capacity": "256 GB",
+    "offer": "₺26.600"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "capacity": "512 GB",
+    "offer": "₺29.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "capacity": "128 GB",
+    "offer": "₺27.200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "capacity": "256 GB",
+    "offer": "₺29.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "capacity": "512 GB",
+    "offer": "₺30.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "capacity": "128 GB",
+    "offer": "₺38.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "capacity": "256 GB",
+    "offer": "₺39.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "capacity": "512 GB",
+    "offer": "₺43.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "capacity": "1 TB",
+    "offer": "₺45.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "capacity": "128 GB",
+    "offer": "₺41.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺43.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺45.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "capacity": "1 TB",
+    "offer": "₺50.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "capacity": "128 GB",
+    "offer": "₺32.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "capacity": "256 GB",
+    "offer": "₺35.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "capacity": "512 GB",
+    "offer": "₺38.900"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "capacity": "128 GB",
+    "offer": "₺35.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "capacity": "256 GB",
+    "offer": "₺36.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "capacity": "512 GB",
+    "offer": "₺39.500"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "capacity": "128 GB",
+    "offer": "₺46.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "capacity": "256 GB",
+    "offer": "₺49.600"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "capacity": "512 GB",
+    "offer": "₺50.600"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "capacity": "1 TB",
+    "offer": "₺54.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺54.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺57.200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "capacity": "1 TB",
+    "offer": "₺57.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "capacity": "128 GB",
+    "offer": "₺42.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "capacity": "256 GB",
+    "offer": "₺45.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "capacity": "512 GB",
+    "offer": "₺46.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "capacity": "128 GB",
+    "offer": "₺44.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "capacity": "256 GB",
+    "offer": "₺45.200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "capacity": "512 GB",
+    "offer": "₺48.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "capacity": "128 GB",
+    "offer": "₺56.700"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "capacity": "256 GB",
+    "offer": "₺58.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "capacity": "512 GB",
+    "offer": "₺66.300"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "capacity": "1 TB",
+    "offer": "₺68.200"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺66.100"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺73.400"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "capacity": "1 TB",
+    "offer": "₺76.800"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16e",
+    "capacity": "128 GB",
+    "offer": "₺21.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16e",
+    "capacity": "256 GB",
+    "offer": "₺22.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16e",
+    "capacity": "512 GB",
+    "offer": "₺23.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "capacity": "256 GB",
+    "offer": "₺50.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "capacity": "512 GB",
+    "offer": "₺54.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "capacity": "256 GB",
+    "offer": "₺68.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "capacity": "512 GB",
+    "offer": "₺72.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "capacity": "1 TB",
+    "offer": "₺76.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "capacity": "256 GB",
+    "offer": "₺74.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "capacity": "512 GB",
+    "offer": "₺78.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "capacity": "1 TB",
+    "offer": "₺82.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "capacity": "2 TB",
+    "offer": "₺86.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "capacity": "256 GB",
+    "offer": "₺62.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "capacity": "512 GB",
+    "offer": "₺66.000"
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone Air",
+    "capacity": "1 TB",
+    "offer": "₺70.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A01",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A01 Core",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A02",
+    "capacity": "32 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A02",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A02s",
+    "capacity": "32 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A02s",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "capacity": "32 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A10",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A10",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A10S",
+    "capacity": "32 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A11",
+    "capacity": "32 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A12",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A12",
+    "capacity": "128 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A13",
+    "capacity": "64 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A13",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A2 Core",
+    "capacity": "8 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A20",
+    "capacity": "32 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A20S",
+    "capacity": "32 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A21s",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A21s",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22",
+    "capacity": "64 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A22",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A23",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A23",
+    "capacity": "64 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A23",
+    "capacity": "256 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A3",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A3 A300",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A30",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A30",
+    "capacity": "128 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A30",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A30S",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A31",
+    "capacity": "128 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32",
+    "capacity": "64 GB",
+    "offer": "₺1.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A32",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A33",
+    "capacity": "128 GB",
+    "offer": "₺3.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A5",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A5 2016",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A5 2017",
+    "capacity": "32 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A5 2017",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A50",
+    "capacity": "64 GB",
+    "offer": "₺700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A50",
+    "capacity": "128 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A51",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A51",
+    "capacity": "256 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52 4G",
+    "capacity": "128 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A52s 5G",
+    "capacity": "128 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A53 5G",
+    "capacity": "128 GB",
+    "offer": "₺4.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A6",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A6",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A6 Plus",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A6 Plus",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A7",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A7 (2016)",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A7 (2017)",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A7 (2018)",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A7 (2018)",
+    "capacity": "128 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A70",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A71",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A72",
+    "capacity": "128 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A72",
+    "capacity": "256 GB",
+    "offer": "₺5.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A73",
+    "capacity": "128 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A73",
+    "capacity": "256 GB",
+    "offer": "₺6.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A8",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A8 2018",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A8 Plus",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A80",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A9 2018",
+    "capacity": "128 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Alpha G850",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C5",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C5",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C7",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C7",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C7 Pro",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C8",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C8",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy C9 Pro",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Grand Prime Pro",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J2",
+    "capacity": "8 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J3 Pro",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J4",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J4 Plus",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J4+",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5",
+    "capacity": "8 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5 (2016) J510",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5 2015",
+    "capacity": "8 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5 2016",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5 Prime",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5 Pro",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J5 Pro",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J6",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J6 Plus",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J6 Plus",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 2016 (J710)",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 CORE",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Prime",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Prime",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Prime",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Prime",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Pro",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Pro",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J7 Pro",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy J8",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M10",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M10",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M11",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M12",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M12",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M20",
+    "capacity": "32 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M20",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M21",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M22",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M30",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M30s",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M31",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M31",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M31s",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M32",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M40",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M51",
+    "capacity": "128 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M52",
+    "capacity": "128 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 10",
+    "capacity": "256 GB",
+    "offer": "₺4.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 10 Lite",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 10 Plus",
+    "capacity": "256 GB",
+    "offer": "₺4.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 20",
+    "capacity": "256 GB",
+    "offer": "₺6.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 20 Ultra",
+    "capacity": "256 GB",
+    "offer": "₺11.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 20 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺13.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 4",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 4",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 5",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 5",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 8",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 8",
+    "capacity": "128 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 9",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note 9",
+    "capacity": "512 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Note FE",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10 Lite",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10 Exynos",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10 Exynos",
+    "capacity": "512 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S10e",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20",
+    "capacity": "128 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 fe",
+    "capacity": "128 GB",
+    "offer": "₺3.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 fe",
+    "capacity": "256 GB",
+    "offer": "₺4.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 Plus",
+    "capacity": "128 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S20 Ultra",
+    "capacity": "128 GB",
+    "offer": "₺9.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "capacity": "128 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "capacity": "256 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 FE 5G",
+    "capacity": "128 GB",
+    "offer": "₺5.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 FE 5G",
+    "capacity": "256 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Plus 5G",
+    "capacity": "128 GB",
+    "offer": "₺6.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Plus 5G",
+    "capacity": "256 GB",
+    "offer": "₺6.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra 5G",
+    "capacity": "128 GB",
+    "offer": "₺12.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra 5G",
+    "capacity": "256 GB",
+    "offer": "₺13.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 5G",
+    "capacity": "128 GB",
+    "offer": "₺8.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 Plus 5G",
+    "capacity": "128 GB",
+    "offer": "₺9.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 Plus 5G",
+    "capacity": "256 GB",
+    "offer": "₺10.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 ULTRA 5G",
+    "capacity": "128 GB",
+    "offer": "₺18.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 ULTRA 5G",
+    "capacity": "256 GB",
+    "offer": "₺18.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 ULTRA 5G",
+    "capacity": "512 GB",
+    "offer": "₺19.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S4",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S4",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S4",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S5",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S6",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S6 Edge",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S7",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S7",
+    "capacity": "64 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S7 Edge",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S8",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S8 Plus",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S9",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S9 Plus",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S9 Plus",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S9 Plus",
+    "capacity": "256 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Tab A",
+    "capacity": "32 GB",
+    "offer": "₺200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z flip",
+    "capacity": "256 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 3",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy ZFold 3",
+    "capacity": "256 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy ZFold2 5G",
+    "capacity": "256 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A04",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A04",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Ace",
+    "capacity": "8 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold4",
+    "capacity": "256 GB",
+    "offer": "₺9.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold4",
+    "capacity": "512 GB",
+    "offer": "₺11.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold4",
+    "capacity": "1 TB",
+    "offer": "₺12.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip4",
+    "capacity": "128 GB",
+    "offer": "₺9.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip4",
+    "capacity": "256 GB",
+    "offer": "₺10.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip4",
+    "capacity": "512 GB",
+    "offer": "₺11.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "capacity": "1 TB",
+    "offer": "₺32.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "capacity": "256 GB",
+    "offer": "₺28.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺29.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "capacity": "1 TB",
+    "offer": "₺32.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "capacity": "256 GB",
+    "offer": "₺28.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺29.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 Plus",
+    "capacity": "256 GB",
+    "offer": "₺17.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A34 5G",
+    "capacity": "128 GB",
+    "offer": "₺5.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A34 5G",
+    "capacity": "256 GB",
+    "offer": "₺5.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A35",
+    "capacity": "128 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A35",
+    "capacity": "256 GB",
+    "offer": "₺6.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A34 5G",
+    "capacity": "128 GB",
+    "offer": "₺5.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A34 5G",
+    "capacity": "256 GB",
+    "offer": "₺5.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A55",
+    "capacity": "128 GB",
+    "offer": "₺7.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A55",
+    "capacity": "256 GB",
+    "offer": "₺7.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A54",
+    "capacity": "128 GB",
+    "offer": "₺5.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A54",
+    "capacity": "256 GB",
+    "offer": "₺5.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "capacity": "256 GB",
+    "offer": "₺40.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺41.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "capacity": "1 TB",
+    "offer": "₺43.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Plus",
+    "capacity": "128 GB",
+    "offer": "₺20.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Plus",
+    "capacity": "256 GB",
+    "offer": "₺21.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip5",
+    "capacity": "256 GB",
+    "offer": "₺16.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip5",
+    "capacity": "512 GB",
+    "offer": "₺17.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold5",
+    "capacity": "256 GB",
+    "offer": "₺22.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold5",
+    "capacity": "512 GB",
+    "offer": "₺24.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold5",
+    "capacity": "1 TB",
+    "offer": "₺25.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A24",
+    "capacity": "128 GB",
+    "offer": "₺3.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A14",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A14",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 FE",
+    "capacity": "128 GB",
+    "offer": "₺10.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S23 FE",
+    "capacity": "256 GB",
+    "offer": "₺10.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M34",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "capacity": "256 GB",
+    "offer": "₺40.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺41.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "capacity": "1 TB",
+    "offer": "₺43.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S22 5G",
+    "capacity": "128 GB",
+    "offer": "₺8.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M23",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M23",
+    "capacity": "64 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M23",
+    "capacity": "256 GB",
+    "offer": "₺2.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M14",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M14",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "capacity": "32 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A03s",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A04s",
+    "capacity": "64 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A04s",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M13",
+    "capacity": "64 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M13",
+    "capacity": "128 GB",
+    "offer": "₺1.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 FE",
+    "capacity": "128 GB",
+    "offer": "₺12.700"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S24 FE",
+    "capacity": "256 GB",
+    "offer": "₺13.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "capacity": "256 GB",
+    "offer": "₺31.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "capacity": "512 GB",
+    "offer": "₺33.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "capacity": "1 TB",
+    "offer": "₺35.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "capacity": "256 GB",
+    "offer": "₺24.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "capacity": "512 GB",
+    "offer": "₺25.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A15",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A15",
+    "capacity": "256 GB",
+    "offer": "₺2.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A16",
+    "capacity": "128 GB",
+    "offer": "₺2.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A16",
+    "capacity": "256 GB",
+    "offer": "₺2.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A05",
+    "capacity": "128 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A05",
+    "capacity": "64 GB",
+    "offer": "₺1.300"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A53 5G",
+    "capacity": "128 GB",
+    "offer": "₺4.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy M33 5G",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra 5G",
+    "capacity": "256 GB",
+    "offer": "₺43.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra 5G",
+    "capacity": "512 GB",
+    "offer": "₺44.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra 5G",
+    "capacity": "1 TB",
+    "offer": "₺46.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A06",
+    "capacity": "128 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A04e",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A25 5G",
+    "capacity": "128 GB",
+    "offer": "₺2.800"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A25 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.200"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A14 5G",
+    "capacity": "64 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A14 5G",
+    "capacity": "128 GB",
+    "offer": "₺1.400"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Edge",
+    "capacity": "256 GB",
+    "offer": "₺25.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Edge",
+    "capacity": "512 GB",
+    "offer": "₺26.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Edge",
+    "capacity": "256 GB",
+    "offer": "₺25.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Edge",
+    "capacity": "512 GB",
+    "offer": "₺26.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Plus",
+    "capacity": "256 GB",
+    "offer": "₺25.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy S25 Plus",
+    "capacity": "512 GB",
+    "offer": "₺26.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy XCover Pro",
+    "capacity": "64 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A26 5G",
+    "capacity": "128 GB",
+    "offer": "₺6.500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy A26 5G",
+    "capacity": "256 GB",
+    "offer": "₺7.350"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Grand Prime G530",
+    "capacity": "8 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Grand Prime G531",
+    "capacity": "8 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Grand Prime Plus G532",
+    "capacity": "8 GB",
+    "offer": "₺400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "11 Lite NE 5G",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "11 Lite NE 5G",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "11T",
+    "capacity": "256 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "11T",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10 Lite",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10 Lite",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Lite",
+    "capacity": "64 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Lite",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Pro",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite",
+    "capacity": "64 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite",
+    "capacity": "256 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Lite 5G",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "11T PRO",
+    "capacity": "256 GB",
+    "offer": "₺4.700"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 6",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 6",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8",
+    "capacity": "256 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8 Lite",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8 Lite",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8 Pro",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8 Pro",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8 SE",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 8 SE",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9 Lite",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9 Lite",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9 SE",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9 SE",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9T",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9T",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9T Pro",
+    "capacity": "64 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9T Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A1",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A1",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2 Lite",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2 Lite",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A3",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A3",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max 2",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max 2",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max 2",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Max 3",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Mix",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Mix 2",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Mix 2",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Mix 3",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 10",
+    "capacity": "64 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 10",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 10 Lite",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 10 Lite",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 10 Pro",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 10 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 10 Pro",
+    "capacity": "512 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 3",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 3",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 2022",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10 2022",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 5",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 5",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 5 plus",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 5 plus",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 5A",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 6",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 6",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 6 Pro",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 6 Pro",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 7",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 7",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 7",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 7A",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 7A",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 8",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 8",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 8A",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 8A",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9A",
+    "capacity": "32 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9C",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9C",
+    "capacity": "64 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9C",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9T",
+    "capacity": "64 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 9T",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Go",
+    "capacity": "8 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Go",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi K30",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 5G",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10 5G",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10S",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 10S",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 11 Pro",
+    "capacity": "64 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 11 Pro",
+    "capacity": "128 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 4X",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 4X",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 4X",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 5",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 5",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 6 Pro",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 6 Pro",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 6 Pro",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 7",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 7",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 7",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8 Pro",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8 Pro",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 8T",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9 Pro",
+    "capacity": "64 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9S",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 9S",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi S2",
+    "capacity": "32 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 2",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Note 2",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Play",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Play",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 6A",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 6A",
+    "capacity": "32 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 5A",
+    "capacity": "32 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 5A",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 11",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 11",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Pro",
+    "capacity": "128 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 11 Pro",
+    "capacity": "256 GB",
+    "offer": "₺3.700"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 11 Pro Plus",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 11 Pro Plus",
+    "capacity": "256 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 12C",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 12C",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 12 Pro",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 12 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12 Pro 5G",
+    "capacity": "128 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12 Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Lite",
+    "capacity": "64 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 10T Lite",
+    "capacity": "128 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A2",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "14 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺14.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 13C",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 13C",
+    "capacity": "256 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 12C",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 12C",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "12 Lite",
+    "capacity": "128 GB",
+    "offer": "₺6.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "12 Lite",
+    "capacity": "256 GB",
+    "offer": "₺6.300"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 12 Pro",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Note 12 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "12T",
+    "capacity": "128 GB",
+    "offer": "₺7.300"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "12T",
+    "capacity": "256 GB",
+    "offer": "₺7.600"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "12T Pro",
+    "capacity": "128 GB",
+    "offer": "₺8.600"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "12T Pro",
+    "capacity": "256 GB",
+    "offer": "₺9.250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A1",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi A1",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "13 Lite",
+    "capacity": "128 GB",
+    "offer": "₺6.650"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "13 Lite",
+    "capacity": "256 GB",
+    "offer": "₺7.300"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "13T",
+    "capacity": "256 GB",
+    "offer": "₺9.250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9T Pro",
+    "capacity": "64 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi 9T Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13",
+    "capacity": "256 GB",
+    "offer": "₺5.650"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10C",
+    "capacity": "64 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10C",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro",
+    "capacity": "256 GB",
+    "offer": "₺6.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro",
+    "capacity": "512 GB",
+    "offer": "₺6.650"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 11S",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 11S",
+    "capacity": "64 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12S",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12S",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10A",
+    "capacity": "10A 64GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10A",
+    "capacity": "64 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10A",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 10A",
+    "capacity": "32 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "13T Pro",
+    "capacity": "256 GB",
+    "offer": "₺9.700"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "13T Pro",
+    "capacity": "512 GB",
+    "offer": "₺10.200"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "13T Pro",
+    "capacity": "1 TB",
+    "offer": "₺10.800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺2.800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro 5G",
+    "capacity": "512 GB",
+    "offer": "₺3.300"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro Plus 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro Plus 5G",
+    "capacity": "512 GB",
+    "offer": "₺4.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro Plus 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro Plus 5G",
+    "capacity": "512 GB",
+    "offer": "₺4.100"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 14 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi Note 14 Pro",
+    "capacity": "512 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 14C",
+    "capacity": "256 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 14C",
+    "capacity": "128 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "14T",
+    "capacity": "256 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "14T",
+    "capacity": "512 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 13C",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Redmi 13C",
+    "capacity": "256 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 10",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 10 Lite",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 10 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 10 Pro",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 20",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 20 Lite",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 20 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 30 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 40 Pro",
+    "capacity": "256 GB",
+    "offer": "₺9.250"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 9 Pro",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate Xs",
+    "capacity": "512 GB",
+    "offer": "₺6.000"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 5T",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart 2018",
+    "capacity": "32 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart 2018",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart 2019",
+    "capacity": "32 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart 2019",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart 2021",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P Smart S",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P10",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P10 Lite",
+    "capacity": "32 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P10 Lite",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P10 Plus",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P10 Plus",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 Lite",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 Lite",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Lite",
+    "capacity": "64 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Lite",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 Pro",
+    "capacity": "512 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Lite",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Lite",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Pro",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P9",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P9 Lite",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P9 Lite 2017",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 2018",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 2019",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 2019",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 (2018)",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 (2019)",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 (2019)",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 S",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 S",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 (2018)",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 (2019)",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y9 Prime (2019)",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 8X",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 8X",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5P",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 10 Lite",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 10 Lite",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 9 Pro",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 Lite E",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P8 Lite",
+    "capacity": "16 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 Prime 2018",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 Prime 2018",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 Prime 2019",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 Prime 2019",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y9 2018",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y9 2018",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y9 2018",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 50",
+    "capacity": "128 GB",
+    "offer": "₺5.350"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 50",
+    "capacity": "256 GB",
+    "offer": "₺5.650"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 50 Pro",
+    "capacity": "256 GB",
+    "offer": "₺7.300"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate 50 Pro",
+    "capacity": "512 GB",
+    "offer": "₺7.600"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 9 SE",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova Y70",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 9 SE",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P60 Pro",
+    "capacity": "256 GB",
+    "offer": "₺12.500"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P60 Pro",
+    "capacity": "512 GB",
+    "offer": "₺13.800"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova Y91",
+    "capacity": "128 GB",
+    "offer": "₺1.250"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6p",
+    "capacity": "64 GB",
+    "offer": "₺650"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Pura 70 Pro",
+    "capacity": "512 GB",
+    "offer": "₺11.500"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 10 SE",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Pura 70 Pro",
+    "capacity": "512 GB",
+    "offer": "₺11.500"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Mate X3",
+    "capacity": "512 GB",
+    "offer": "₺11.450"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Nova 10 Pro",
+    "capacity": "256 GB",
+    "offer": "₺5.000"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Pura 70 Ultra",
+    "capacity": "512 GB",
+    "offer": "₺22.000"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 Prime 2018",
+    "capacity": "16 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Oppo Reno 3",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Oppo RX17 Neo",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Oppo RX17 Neo",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A12",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A12",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A5 2020",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A5S",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A5S",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A72",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A73",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A9 2020",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A91",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A91",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A31",
+    "capacity": "32 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A31",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "F19s",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "AX7",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "AX7",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 4 Lite",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 5 Lite",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno Z",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno2 Z",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A52",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A55",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A55",
+    "capacity": "64 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A15s",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A16",
+    "capacity": "32 GB",
+    "offer": "₺1.300"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno5 Marvel Edition",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 4 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 4 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 4 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 4 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A15s",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A54",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 3 Pro",
+    "capacity": "128 GB",
+    "offer": "₺4.700"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 3 Pro",
+    "capacity": "256 GB",
+    "offer": "₺5.000"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Oppo A96",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Oppo A96",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 6",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 7",
+    "capacity": "128 GB",
+    "offer": "₺1.800"
+  },
+  {
+    "brand": "Oppo",
+    "model": "A38",
+    "capacity": "128 GB",
+    "offer": "₺2.550"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno 11F 5G",
+    "capacity": "256 GB",
+    "offer": "₺4.300"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno13 F 4G",
+    "capacity": "256 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Oppo",
+    "model": "Reno13 F 5G",
+    "capacity": "256 GB",
+    "offer": "₺1.000"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F1",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F1",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F1",
+    "capacity": "256 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F2 PRO",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F2 PRO",
+    "capacity": "256 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F3",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F3",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco M3",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco M3",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco M3 Pro 5G",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco M3 Pro 5G",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 GT",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 GT",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 NFC",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 NFC",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 pro",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 pro",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Poco",
+    "model": "X4 Pro 5G",
+    "capacity": "128 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Poco",
+    "model": "X4 Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.700"
+  },
+  {
+    "brand": "Poco",
+    "model": "X5 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X5 Pro",
+    "capacity": "256 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Poco",
+    "model": "C40",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco C65",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco C65",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Poco",
+    "model": "F5",
+    "capacity": "256 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Poco",
+    "model": "F5",
+    "capacity": "512 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Poco",
+    "model": "F5",
+    "capacity": "1 TB",
+    "offer": "₺3.400"
+  },
+  {
+    "brand": "Poco",
+    "model": "X6 Pro",
+    "capacity": "256 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Poco",
+    "model": "X6 Pro",
+    "capacity": "512 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Poco",
+    "model": "X4 GT 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.700"
+  },
+  {
+    "brand": "Poco",
+    "model": "X4 GT 5G",
+    "capacity": "128 GB",
+    "offer": "₺3.450"
+  },
+  {
+    "brand": "Poco",
+    "model": "F5 Pro",
+    "capacity": "256 GB",
+    "offer": "₺4.750"
+  },
+  {
+    "brand": "Poco",
+    "model": "F5 Pro",
+    "capacity": "512 GB",
+    "offer": "₺5.900"
+  },
+  {
+    "brand": "Vivo",
+    "model": "V21E",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y35",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y35",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y11S",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y15S",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y16",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y16",
+    "capacity": "32 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y16",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y17S",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y18",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y18",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y21",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y21s",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y22s",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y22s",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y27",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33s",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y36",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y36",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y51",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y53s",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Vivo",
+    "model": "V29",
+    "capacity": "256 GB",
+    "offer": "₺4.850"
+  },
+  {
+    "brand": "Vivo",
+    "model": "V29 Lite 5G",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Vivo",
+    "model": "V40 SE 5G",
+    "capacity": "256 GB",
+    "offer": "₺6.650"
+  },
+  {
+    "brand": "Vivo",
+    "model": "V30 Lite",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Vivo",
+    "model": "V25",
+    "capacity": "256 GB",
+    "offer": "₺3.750"
+  },
+  {
+    "brand": "Omix",
+    "model": "X500",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Omix",
+    "model": "X400",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Omix",
+    "model": "X400",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Omix",
+    "model": "X600",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Omix",
+    "model": "X600",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Omix",
+    "model": "x700",
+    "capacity": "128 GB",
+    "offer": "₺1.800"
+  },
+  {
+    "brand": "Omix",
+    "model": "x700",
+    "capacity": "256 GB",
+    "offer": "₺2.000"
+  },
+  {
+    "brand": "Omix",
+    "model": "X300",
+    "capacity": "64 GB",
+    "offer": "₺1.500"
+  },
+  {
+    "brand": "Omix",
+    "model": "X300",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Omix",
+    "model": "X300",
+    "capacity": "64 GB",
+    "offer": "₺1.500"
+  },
+  {
+    "brand": "Omix",
+    "model": "X300",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Omix",
+    "model": "X500",
+    "capacity": "128 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Omix",
+    "model": "x700",
+    "capacity": "128 GB",
+    "offer": "₺1.800"
+  },
+  {
+    "brand": "Omix",
+    "model": "x700",
+    "capacity": "256 GB",
+    "offer": "₺2.000"
+  },
+  {
+    "brand": "Omix",
+    "model": "X600",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Omix",
+    "model": "X600",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "C15",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "GT2",
+    "capacity": "256 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "GT2",
+    "capacity": "128 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "C25Y",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Realme",
+    "model": "C21",
+    "capacity": "64 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Realme",
+    "model": "10",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Realme",
+    "model": "10",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "5İ",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "5İ",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Realme",
+    "model": "5İ",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "5İ",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "5İ",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Realme",
+    "model": "5İ",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "6 pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "6İ",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "C15",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "7 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "6 pro",
+    "capacity": "128 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "8 pro",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 11",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 11 2021",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Realme",
+    "model": "C21 Y",
+    "capacity": "32 GB",
+    "offer": "₺150"
+  },
+  {
+    "brand": "Realme",
+    "model": "C21 Y",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 25",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 25",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 25S",
+    "capacity": "64 GB",
+    "offer": "₺450"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 25S",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 53",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "C 53",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Realme",
+    "model": "C55",
+    "capacity": "64 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "C55",
+    "capacity": "128 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Realme",
+    "model": "C55",
+    "capacity": "256 GB",
+    "offer": "₺1.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Lite",
+    "capacity": "128 GB",
+    "offer": "₺2.350"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Lite",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Lite",
+    "capacity": "128 GB",
+    "offer": "₺2.350"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Lite",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme C67",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme C67",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme Note 60",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme Note 60",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "11 Pro Plus",
+    "capacity": "256 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "11 Pro Plus",
+    "capacity": "512 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "GT2 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Realme",
+    "model": "GT2 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.400"
+  },
+  {
+    "brand": "Realme",
+    "model": "11 Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Realme",
+    "model": "11 4G",
+    "capacity": "128 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Realme",
+    "model": "11 4G",
+    "capacity": "256 GB",
+    "offer": "₺2.550"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺4.500"
+  },
+  {
+    "brand": "Realme",
+    "model": "C61",
+    "capacity": "128 GB",
+    "offer": "₺3.250"
+  },
+  {
+    "brand": "Realme",
+    "model": "C61",
+    "capacity": "256 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Pro Plus 5G",
+    "capacity": "256 GB",
+    "offer": "₺8.000"
+  },
+  {
+    "brand": "Realme",
+    "model": "12 Pro Plus 5G",
+    "capacity": "512 GB",
+    "offer": "₺9.000"
+  },
+  {
+    "brand": "Realme",
+    "model": "C25Y",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 20C",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 30C",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 30C",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 20 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 10 Pro",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 10 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.000"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 18",
+    "capacity": "128 GB",
+    "offer": "₺650"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 18P",
+    "capacity": "128 GB",
+    "offer": "₺900"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 19",
+    "capacity": "128 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 19 Neo",
+    "capacity": "128 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 19 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.300"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 19 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 20",
+    "capacity": "256 GB",
+    "offer": "₺100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 20 Premier 5G",
+    "capacity": "512 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 20 Pro",
+    "capacity": "256 GB",
+    "offer": "₺1.350"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 20 Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺1.350"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 20S Pro 5G",
+    "capacity": "256 GB",
+    "offer": "₺1.350"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 30",
+    "capacity": "256 GB",
+    "offer": "₺2.650"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 30 5G",
+    "capacity": "512 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 30 Pro 5G",
+    "capacity": "512 GB",
+    "offer": "₺2.550"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 30S",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 30S",
+    "capacity": "256 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camons 30S Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom V Flip 2",
+    "capacity": "256 GB",
+    "offer": "₺3.000"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom V Flip 5G",
+    "capacity": "256 GB",
+    "offer": "₺3.200"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom V Fold",
+    "capacity": "256 GB",
+    "offer": "₺5.200"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom V Fold",
+    "capacity": "512 GB",
+    "offer": "₺5.350"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom V Fold2",
+    "capacity": "256 GB",
+    "offer": "₺5.450"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom V Fold2",
+    "capacity": "512 GB",
+    "offer": "₺5.650"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom X2 5G",
+    "capacity": "256 GB",
+    "offer": "₺2.750"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Phantom X2 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.600"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 5",
+    "capacity": "256 GB",
+    "offer": "₺2.150"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 5 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 6",
+    "capacity": "256 GB",
+    "offer": "₺2.600"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 6 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.650"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova Neo",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova Neo",
+    "capacity": "64 GB",
+    "offer": "₺1.500"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova Neo 2",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 10 Pro",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 10 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.000"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 10C",
+    "capacity": "128 GB",
+    "offer": "₺700"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 20C",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 20 Pro Plus",
+    "capacity": "256 GB",
+    "offer": "₺1.500"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 30C",
+    "capacity": "128 GB",
+    "offer": "₺800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 30C",
+    "capacity": "256 GB",
+    "offer": "₺1.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 30 Pro",
+    "capacity": "256 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 30 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.100"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 9T",
+    "capacity": "64 GB",
+    "offer": "₺300"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 9T",
+    "capacity": "128 GB",
+    "offer": "₺300"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark Go 1",
+    "capacity": "64 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark Go 1",
+    "capacity": "128 GB",
+    "offer": "₺250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark Go 2024",
+    "capacity": "64 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark Go 2024",
+    "capacity": "128 GB",
+    "offer": "₺500"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 8C",
+    "capacity": "128 GB",
+    "offer": "₺2.200"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 3",
+    "capacity": "64 GB",
+    "offer": "₺1.450"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 3",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 4",
+    "capacity": "128 GB",
+    "offer": "₺1.600"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Pova 4",
+    "capacity": "256 GB",
+    "offer": "₺1.800"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 16",
+    "capacity": "128 GB",
+    "offer": "₺1.150"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 9 Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.050"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 7T",
+    "capacity": "64 GB",
+    "offer": "₺1.300"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 7T Pro",
+    "capacity": "128 GB",
+    "offer": "₺1.900"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Camon 18 Premier",
+    "capacity": "256 GB",
+    "offer": "₺3.250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 7 Pro",
+    "capacity": "128 GB",
+    "offer": "₺2.000"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 6 Go",
+    "capacity": "64 GB",
+    "offer": "₺1.250"
+  },
+  {
+    "brand": "Tecno",
+    "model": "Spark 6 Go",
+    "capacity": "128 GB",
+    "offer": "₺2.000"
+  },
+  {
+    "brand": "Honor",
+    "model": "Honor 90",
+    "capacity": "256 GB",
+    "offer": "₺4.700"
+  },
+  {
+    "brand": "Honor",
+    "model": "Honor 90",
+    "capacity": "512 GB",
+    "offer": "₺5.350"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic 6 Pro",
+    "capacity": "512 GB",
+    "offer": "₺13.800"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic 6 Pro",
+    "capacity": "256 GB",
+    "offer": "₺12.500"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic 6 Pro",
+    "capacity": "1 TB",
+    "offer": "₺15.100"
+  },
+  {
+    "brand": "Honor",
+    "model": "200",
+    "capacity": "256 GB",
+    "offer": "₺4.000"
+  },
+  {
+    "brand": "Honor",
+    "model": "200",
+    "capacity": "512 GB",
+    "offer": "₺4.700"
+  },
+  {
+    "brand": "Honor",
+    "model": "200 Pro",
+    "capacity": "256 GB",
+    "offer": "₺6.000"
+  },
+  {
+    "brand": "Honor",
+    "model": "200 Pro",
+    "capacity": "512 GB",
+    "offer": "₺7.300"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic V3",
+    "capacity": "512 GB",
+    "offer": "₺17.050"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic7 Lite",
+    "capacity": "256 GB",
+    "offer": "₺4.300"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic7 Lite",
+    "capacity": "512 GB",
+    "offer": "₺5.000"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic7 Pro",
+    "capacity": "512 GB",
+    "offer": "₺14.700"
+  },
+  {
+    "brand": "Honor",
+    "model": "Magic V2",
+    "capacity": "512 GB",
+    "offer": "₺15.250"
+  },
+  {
+    "brand": "Honor",
+    "model": "X9B 5G",
+    "capacity": "256 GB",
+    "offer": "₺4.500"
+  }
+]

@@ -1,25 +1,33 @@
 import styled from "styled-components";
 
-export const StyledButton = styled("button")<{ color?: string }>`
-  background: ${(p) => p.color || "#2e186a"};
-  color: ${(p) => (p.color ? "#2E186A" : "#fff")};
+export const StyledButton = styled("button")<{ color?: string; disabled?: boolean }>`
+  background: ${(p) => (p.disabled ? "#cccccc" : p.color || "#D90416")};
+  color: ${(p) => (p.disabled ? "#666666" : p.color ? "#D90416" : "#fff")};
   font-size: 1rem;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
-  border: 1px solid #edf3f5;
+  border: 1px solid ${(p) => (p.disabled ? "#cccccc" : "#edf3f5")};
   border-radius: 4px;
   padding: 13px 0;
-  cursor: pointer;
+  cursor: ${(p) => (p.disabled ? "not-allowed" : "pointer")};
   margin-top: 0.625rem;
   max-width: 180px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 16px 30px rgb(23 31 114 / 20%);
+  box-shadow: ${(p) => (p.disabled ? "none" : "0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(217, 4, 22, 0.15)")};
+  opacity: ${(p) => (p.disabled ? 0.6 : 1)};
 
   &:hover,
   &:active,
   &:focus {
-    color: #fff;
-    border: 1px solid rgb(255, 130, 92);
-    background-color: rgb(255, 130, 92);
+    ${(p) =>
+      !p.disabled &&
+      `
+      color: #fff;
+      border: 1px solid #D90416;
+      background-color: #D90416;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(217, 4, 22, 0.2);
+      transform: translateY(-1px);
+    `}
   }
 `;

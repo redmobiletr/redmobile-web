@@ -5,11 +5,14 @@ import 'antd/dist/antd.min.css';
 
 import Router from "./router";
 import i18n from "./translation";
+import { ContactFormProvider } from "./context/ContactFormContext";
 
 const App = () => (
   <BrowserRouter>
     <I18nextProvider i18n={i18n}>
-      <Router />
+      <ContactFormProvider>
+        <Router />
+      </ContactFormProvider>
     </I18nextProvider>
   </BrowserRouter>
 );

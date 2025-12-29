@@ -39,8 +39,9 @@ export const MinTitle = styled("h6")`
   line-height: 1rem;
   padding: 0.5rem 0;
   text-transform: uppercase;
-  color: #000;
-  font-family: "Motiva Sans Light", sans-serif;
+  color: #8c1031;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 `;
 
 export const MinPara = styled("p")`
@@ -49,14 +50,15 @@ export const MinPara = styled("p")`
 
 export const ButtonWrapper = styled("div")`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   max-width: 100%;
+  margin-left: -8px;
 
   @media screen and (min-width: 1024px) {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   button:last-child {
-    margin-left: 20px;
+    margin-left: 0;
   }
 `;

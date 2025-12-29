@@ -13,6 +13,17 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  align-items: center;
+  text-decoration: none;
+  
+  .logo-text {
+    font-family: 'Marble Modern', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: #D90404;
+  }
 `;
 
 export const NavLink = styled("div")`
@@ -41,7 +52,7 @@ export const Burger = styled("div")`
   display: none;
 
   svg {
-    fill: #2e186a;
+    fill: #D90404;
   }
 `;
 
@@ -54,12 +65,15 @@ export const NotHidden = styled("div")`
 export const Menu = styled("h5")`
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #18216d;
+  color: #101726;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 
@@ -88,8 +102,8 @@ export const Span = styled("span")`
   &:hover,
   &:active,
   &:focus {
-    color: rgb(255, 130, 92);
+    color: #D90404;
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: #D90404 wavy underline;
   }
 `;

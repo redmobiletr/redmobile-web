@@ -1,25 +1,25 @@
 {
-  "short_name": "Landy",
-  "name": "Landy - React Template",
+  "short_name": "Red Mobile",
+  "name": "RedMobile | İkinci El Telefon Alım & Satım",
   "icons": [
     {
-      "src": "img/icons/logo192.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "redicon.png",
+      "sizes": "any",
+      "type": "image/png"
     },
     {
-      "src": "img/icons/logo192.png",
+      "src": "redicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/icons/logo512.png",
+      "src": "redicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#D90404",
   "background_color": "#ffffff"
 }

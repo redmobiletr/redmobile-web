@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Red Mobile Nedir?",
+  "text": "Red Mobile, ikinci el telefon satışını tek yönlü bir işlem olmaktan çıkaran yenilikçi bir mobil ticaret modelidir. Telefonunu satarken kontrolü kaybetmeden, güvenle ve esnek şekilde ilerlemeni sağlar. Burada amaç sadece satış yapmak değil; kararlarını rahatça verebileceğin, sana alan tanıyan bir deneyim sunmaktır.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Geri Alım Opsiyonu",
+      "content": "Telefonunu sattıktan sonra fikrin değişirse sorun değil. Belirli bir süre içinde, aynı cihazı avantajlı koşullarla geri alabilirsin. Böylece acele etmezsin, pişmanlık yaşamazsın, kararın her zaman senin olur.",
+      "icon": "iphone4.png"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Güven ve Şeffaflık",
+      "content": "Tüm cihazlar uzman ekipler tarafından kontrol edilir. Durumları net kriterlerle değerlendirilir ve şeffaf şekilde sunulur. Ne aldığını bilirsin, ne sattığını da.",
+      "icon": "iphone3.png"
     }
   ]
 }

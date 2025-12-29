@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
+import { useEffect, useRef } from "react";
 import { ContactProps, ValidationTypeProps } from "./types";
 import { useForm } from "../../common/utils/useForm";
 import validate from "../../common/utils/validationRules";
@@ -8,10 +9,36 @@ import { Button } from "../../common/Button";
 import Block from "../Block";
 import Input from "../../common/Input";
 import TextArea from "../../common/TextArea";
-import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
+import { 
+  ContactContainer, 
+  FormGroup, 
+  Span, 
+  ButtonContainer, 
+  FormField,
+  CheckboxContainer,
+  CheckboxLabel,
+  CheckboxInput,
+  CheckboxText,
+  CheckboxError
+} from "./styles";
+import { useContactForm } from "../../context/ContactFormContext";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
-  const { values, errors, handleChange, handleSubmit } = useForm(validate);
+  const { values, errors, handleChange, handleSubmit, setMessageValue, isSubmitting } = useForm(validate);
+  const { message: contextMessage, messageKey } = useContactForm();
+
+  // Track last message key to prevent unnecessary updates
+  const lastMessageKeyRef = useRef(0);
+  
+  // Update message when context message or key changes
+  useEffect(() => {
+    // Only update if message key changed (new message) or message content changed
+    if (contextMessage && contextMessage.trim() !== "" && messageKey !== lastMessageKeyRef.current) {
+      // Set the message value directly
+      setMessageValue(contextMessage);
+      lastMessageKeyRef.current = messageKey;
+    }
+  }, [contextMessage, messageKey, setMessageValue]);
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type as keyof typeof errors];
@@ -29,37 +56,97 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right" triggerOnce>
             <FormGroup autoComplete="off" onSubmit={handleSubmit}>
-              <Col span={24}>
+              {/* Honeypot field for spam protection */}
+              <input
+                type="text"
+                name="_gotcha"
+                style={{ display: "none" }}
+                tabIndex={-1}
+                autoComplete="off"
+              />
+              
+              <FormField>
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="Adınız Soyadınız"
                   value={values.name || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="name" />
-              </Col>
-              <Col span={24}>
+                {errors.name && <ValidationType type="name" />}
+              </FormField>
+
+              <FormField>
                 <Input
                   type="text"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="E-posta Adresiniz"
                   value={values.email || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="email" />
-              </Col>
-              <Col span={24}>
+                {errors.email && <ValidationType type="email" />}
+              </FormField>
+
+              <FormField>
+                <Input
+                  type="tel"
+                  name="phone"
+                  placeholder="Telefon Numaranız (Opsiyonel)"
+                  value={values.phone || ""}
+                  onChange={handleChange}
+                />
+                {errors.phone && <ValidationType type="phone" />}
+              </FormField>
+
+              <FormField>
                 <TextArea
-                  placeholder="Your Message"
+                  placeholder="Mesajınız"
                   value={values.message || ""}
                   name="message"
                   onChange={handleChange}
                 />
-                <ValidationType type="message" />
-              </Col>
+                {errors.message && <ValidationType type="message" />}
+              </FormField>
+
+              <FormField>
+                <CheckboxContainer>
+                  <CheckboxLabel>
+                    <CheckboxInput
+                      type="checkbox"
+                      name="kvkkConsent"
+                      checked={values.kvkkConsent || false}
+                      onChange={handleChange}
+                    />
+                    <CheckboxText>
+                      KVKK Aydınlatma Metni'ni okudum ve kabul ediyorum.
+                    </CheckboxText>
+                  </CheckboxLabel>
+                  {!values.kvkkConsent && errors.kvkkConsent === false && (
+                    <CheckboxError>
+                      <Span>KVKK Aydınlatma Metni'ni kabul etmelisiniz</Span>
+                    </CheckboxError>
+                  )}
+                </CheckboxContainer>
+              </FormField>
+
               <ButtonContainer>
-                <Button name="submit">{t("Submit")}</Button>
+                <Button 
+                  name="submit" 
+                  type="submit"
+                  disabled={
+                    isSubmitting ||
+                    !values.name || 
+                    !values.email || 
+                    !values.message ||
+                    !values.kvkkConsent ||
+                    !!errors.name ||
+                    !!errors.email ||
+                    !!errors.phone ||
+                    !!errors.message
+                  }
+                >
+                  {isSubmitting ? "Gönderiliyor..." : t("Submit")}
+                </Button>
               </ButtonContainer>
             </FormGroup>
           </Slide>

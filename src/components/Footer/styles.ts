@@ -2,14 +2,16 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
-  background: rgb(241, 242, 243);
+  background: #D90416;
   padding: 2.5rem 0;
 `;
 
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -21,16 +23,19 @@ export const NavLink = styled(Link)`
   font-size: 1rem;
   margin-bottom: 0.625rem;
   transition: all 0.2s ease-in-out;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 
   &:hover,
   &:active,
   &:focus {
-    color: #15418e;
+    color: #ffffff;
+    opacity: 1;
   }
 `;
 
 export const Extra = styled("section")`
-  background: rgb(241, 242, 243);
+  background: #D90416;
   position: relative;
   width: 100%;
   margin-right: auto;
@@ -41,17 +46,29 @@ export const Extra = styled("section")`
 export const LogoContainer = styled("div")`
   display: flex;
   position: relative;
+  align-items: center;
+  
+  .logo-text {
+    font-family: 'Marble Modern', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: #ffffff;
+  }
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
+  color: #ffffff;
   font-size: 14px;
   width: 70%;
+  opacity: 0.9;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const Large = styled(Link)`
   font-size: 16px;
-  color: #000;
+  color: #ffffff;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-transform: capitalize;
@@ -60,25 +77,31 @@ export const Large = styled(Link)`
   margin-bottom: 0.625rem;
   transition: all 0.3s ease-in-out;
   max-width: max-content;
+  opacity: 0.9;
+  font-family: 'Montserrat', sans-serif;
 
   &:hover {
-    color: rgb(255, 130, 92);
+    color: #ffffff;
+    opacity: 1;
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: #ffffff wavy underline;
   }
 `;
 
 export const Chat = styled("p")`
-  color: #18216d;
+  color: #ffffff;
   max-width: fit-content;
-  border-bottom: 1px solid #18216d;
+  border-bottom: 1px solid #ffffff;
   cursor: pointer;
   margin-top: 1rem;
   transition: all 0.3s ease-in-out;
+  opacity: 0.9;
+  font-family: 'Montserrat', sans-serif;
 
   &:hover {
-    border-bottom: 1px solid rgb(255, 130, 92);
-    color: rgb(255, 130, 92);
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    opacity: 1;
   }
 `;
 
@@ -120,8 +143,16 @@ export const FooterContainer = styled("div")`
     width: 25px;
     height: 25px;
 
+    svg {
+      fill: #ffffff;
+      opacity: 0.8;
+    }
+
     &:hover {
-      fill: rgb(255, 130, 92);
+      svg {
+        fill: #ffffff;
+        opacity: 1;
+      }
     }
   }
 `;
@@ -129,7 +160,9 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -139,10 +172,11 @@ export const Language = styled("h4")`
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #ffffff;
   display: block;
   margin-bottom: 2rem;
-  font-family: "Motiva Sans Bold", serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;

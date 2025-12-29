@@ -42,12 +42,12 @@ const ContentBlock = ({
           id={id}
           direction={direction}
         >
-          <Col lg={11} md={11} sm={12} xs={24}>
+          <Col lg={13} md={13} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
-          <Col lg={11} md={11} sm={11} xs={24}>
+          <Col lg={9} md={9} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              <h6 style={{ color: id === "about" ? "#d90404" : "inherit" }}>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {direction === "right" ? (
                 <ButtonWrapper>
@@ -83,15 +83,17 @@ const ContentBlock = ({
                             content: string;
                             icon: string;
                           },
-                          id: number
+                          index: number
                         ) => {
                           return (
-                            <Col key={id} span={11}>
-                              <SvgIcon
-                                src={item.icon}
-                                width="60px"
-                                height="60px"
-                              />
+                            <Col key={index} span={11}>
+                              {id !== "about" && (
+                                <SvgIcon
+                                  src={item.icon}
+                                  width="60px"
+                                  height="60px"
+                                />
+                              )}
                               <MinTitle>{t(item.title)}</MinTitle>
                               <MinPara>{t(item.content)}</MinPara>
                             </Col>

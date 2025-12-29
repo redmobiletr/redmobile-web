@@ -1,13 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Bir tıkla sat istediğinde geri al.",
+  "text": "Red Mobile ile telefonunu tek bir adımda satabilirsin.İhtiyacın olduğunda ise aynı cihazı kolayca geri alabilirsin.",
   "button": [
     {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "Keşfet"
     }
   ]
 }

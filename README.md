@@ -1,112 +1,163 @@
-![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
+# Red Mobile - İkinci El Telefon Alım & Satım Platformu
 
-![Landy React Template License](https://img.shields.io/github/license/Adrinlol/landy-react-template)
-![Landy React Template Release Date](https://img.shields.io/github/release-date/Adrinlol/landy-react-template)
-![Landy React TemplateStars](https://img.shields.io/github/stars/Adrinlol/landy-react-template)
-![Landy React Template Language](https://img.shields.io/github/languages/top/Adrinlol/landy-react-template)
-![Landy React Template TypeScript](https://badgen.net/npm/types/tslib)
+![Red Mobile](https://img.shields.io/badge/Red%20Mobile-React-blue)
+![TypeScript](https://badgen.net/npm/types/tslib)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Free React landing page template
+Red Mobile, ikinci el telefon satışını geri alım opsiyonu ile güvenli, esnek ve pişmanlıksız hale getiren yenilikçi mobil ticaret platformudur.
 
-[Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
+## 🚀 Özellikler
 
-This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
+- **Modern React Stack** – React 18, TypeScript, Styled Components
+- **Responsive Tasarım** – Tüm cihazlarda mükemmel görünüm
+- **Hızlı Performans** – Optimize edilmiş kod ve lazy loading
+- **Formspree Entegrasyonu** – Güvenli, backendless form gönderimi
+- **SEO Optimizasyonu** – Google arama motorları için optimize edilmiş
+- **Güvenlik** – CSP headers, honeypot spam koruması, KVKK uyumlu
+- **Çok Dilli Destek** – Türkçe, İngilizce, İspanyolca
 
-## Table of contents
+## 📋 Gereksinimler
 
-- [Features](#features)
-- [Google Lighthouse](#google-lighthouse)
-  - [Performance](#performance)
-  - [Accessibility](#accessibility)
-  - [Best Practices](#best-practices)
-  - [SEO](#seo)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Special Thanks](#special-thanks)
-- [Usage](#usage)
-- [License](#license)
+- Node.js 10.16.0 veya üzeri (LTS önerilir)
+- npm veya yarn
 
-## Features
+## 🛠️ Kurulum
 
-Your project will have everything you need to build a modern single-page React app:
+1. **Repository'yi klonlayın:**
+   ```bash
+   git clone <repository-url>
+   cd redmobile-react-web
+   ```
 
-- 🎁 **Modern** – Template created using the latest features of React (State management using Hooks, Code-Splitting to reduce the bundle size)
+2. **Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
+   ```
 
-- 💻 **Responsive** – Highly responsive and reusable UI components, that change depending on the provided props
+3. **Environment değişkenlerini ayarlayın:**
+   ```bash
+   cp .env.example .env
+   ```
+   
+   `.env` dosyasını düzenleyin:
+   ```env
+   REACT_APP_FORMSPREE_ENDPOINT=https://formspree.io/f/YOUR_FORM_ID
+   ```
 
-- 🚀 **Fast** – Buttery smooth experience thanks to the implementation of best practices and no third party dependencies, resulting in <b>PERFECT</b> Google Lighthouse scores
+4. **Development server'ı başlatın:**
+   ```bash
+   npm start
+   ```
 
-- 🏷 **TypeScript support** – Landy is written in TypeScript to improve the DX
+5. **Production build:**
+   ```bash
+   npm run build
+   ```
 
-- 🌍 **Internationalization** - Prebuilt standalone file that works in every environment and doesn't require reloading the page to translate the content
+## 📧 Formspree Kurulumu
 
-- 🛸 **Routing** - Each file inside the src/pages directory will generate its own route, so you don't have to manually handle the routing
+İletişim formu [Formspree](https://formspree.io/) kullanarak güvenli email gönderimi yapar.
 
-- 🤙 **Contact Form** - Contact form written in React Hooks, with uncontrolled form validation to reduce unnecessary performance penalty. You just need to provide the endpoint
+### Hızlı Kurulum
 
-- ⚙️ **Maintenance** - All of the content is stored in the JSON files, so that you can easily manage the content of the website
+1. **Formspree hesabı oluşturun:**
+   - https://formspree.io/ adresine gidin
+   - Ücretsiz hesap oluşturun
+   - Yeni form oluşturun
+   - Form endpoint URL'ini kopyalayın
 
-## Google Lighthouse
+2. **Environment değişkenini ayarlayın:**
+   - `.env` dosyasında `REACT_APP_FORMSPREE_ENDPOINT` değerini ayarlayın
 
-![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
+3. **Formspree'de email alıcısını yapılandırın:**
+   - Formspree dashboard'da form ayarlarına gidin
+   - Email alıcısını `info@redmobile.com.tr` olarak ayarlayın
+   - Email bildirimlerini etkinleştirin
 
-[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
+### Form Özellikleri
 
-### Performance
+- ✅ Client-side validation (zorunlu alanlar + email formatı)
+- ✅ KVKK onay checkbox'ı (GDPR uyumluluğu için zorunlu)
+- ✅ Honeypot spam koruması
+- ✅ Gönderim sırasında loading durumu
+- ✅ Başarı/hata bildirimleri
+- ✅ Telefon alanı (opsiyonel)
 
-Audits for metrics like first paint and time to interactive to determine lag.
+## 🏗️ Proje Yapısı
 
-### Accessibility
+```
+src/
+ ├── assets/          # Görseller, ikonlar, logolar
+ ├── components/      # Yeniden kullanılabilir UI bileşenleri
+ ├── pages/           # Sayfa seviyesi bileşenler
+ ├── features/        # Özellik bazlı bileşenler (contact, hero, vb.)
+ ├── utils/           # Yardımcı fonksiyonlar
+ ├── styles/          # Global CSS / tema stilleri
+ ├── content/         # JSON içerik dosyaları
+ ├── context/         # React Context API
+ └── data/            # Veri dosyaları
+```
 
-Checks for common issues that may prevent users from accessing your content.
+## 🔒 Güvenlik
 
-### Best Practices
+- **Content Security Policy (CSP)** – XSS saldırılarına karşı koruma
+- **Security Headers** – HSTS, X-Frame-Options, vb.
+- **Honeypot** – Spam koruması
+- **Input Sanitization** – Form verilerinin temizlenmesi
+- **Environment Variables** – Hassas bilgilerin güvenli saklanması
 
-Looks for everything from HTTPS usage to correct image aspect ratios.
+Detaylı güvenlik raporu için `SECURITY_REPORT.md` dosyasına bakın.
 
-### SEO 
+## 🚀 Vercel Deployment
 
-Checks for best practices to ensure your site is discoverable.
+1. **Vercel hesabınıza giriş yapın:**
+   ```bash
+   npm i -g vercel
+   vercel login
+   ```
 
+2. **Projeyi deploy edin:**
+   ```bash
+   vercel
+   ```
 
-## Demo
+3. **Environment değişkenlerini ayarlayın:**
+   - Vercel dashboard'da proje ayarlarına gidin
+   - Environment Variables bölümüne `REACT_APP_FORMSPREE_ENDPOINT` ekleyin
 
-Check the live demo here 👉️ https://landy-web.netlify.app/
+4. **Production URL'ini güncelleyin:**
+   - `vercel.json` ve `public/index.html` dosyalarında URL'leri güncelleyin
 
+## 📝 Scripts
 
-### Installation
+- `npm start` – Development server başlatır
+- `npm run build` – Production build oluşturur
+- `npm test` – Testleri çalıştırır
+- `npm run audit` – Güvenlik audit'i çalıştırır
+- `npm run security:check` – Orta seviye ve üzeri güvenlik açıklarını kontrol eder
 
-You’ll need to have Node 10.16.0 or later version on your local development machine (but it’s not required on the server). I recommend using the latest LTS version.
+## 🛡️ Güvenlik Kontrolleri
 
-To create a new app, you have to:
+Production'a geçmeden önce:
 
-Begin by cloning this repository to establish your own local copy. This process is straightforward and ensures you have all the necessary files and resources at your fingertips. You can find step-by-step instructions in this helpful article: Cloning a [repository on GitHub.com](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+- [ ] `npm run security:check` çalıştırıldı
+- [ ] Environment değişkenleri ayarlandı
+- [ ] Formspree endpoint yapılandırıldı
+- [ ] Security headers kontrol edildi
+- [ ] Console.log'lar kaldırıldı
+- [ ] Build başarıyla tamamlandı
 
-## What's included
+Detaylı deployment checklist için `DEPLOYMENT_CHECKLIST.md` dosyasına bakın.
 
-- [antd][antd] - React UI library that contains a set of high quality components.
-- [react-awesome-reveal][react-awesome-reveal] - High performance library that adds reveal animations using the Intersection Observer API.
-- [styled-componets][styled-componets] - Variant on “CSS-in-JS”—which solves many of the problems with traditional CSS.
-- [i18next][i18next] - Internationalization-framework written in and for JavaScript.
+## 📄 Lisans
 
-## Special thanks
+MIT License - Detaylar için `LICENSE` dosyasına bakın.
 
-[whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
+## 📞 İletişim
 
-## Usage
+- Email: info@redmobile.com.tr
+- Website: https://redmobil.com
 
-Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
+---
 
-## License
-
-Licensed under the MIT license.
-
-<!-- prettier-ignore-start -->
-[antd]: https://github.com/ant-design/ant-design
-[react-awesome-reveal]: https://www.npmjs.com/package/react-awesome-reveal
-[styled-componets]: https://github.com/styled-components/styled-components
-[i18next]: https://github.com/i18next/i18next
-[whoooa]: https://www.whoooa.rocks/
-[Landy]: https://www.npmjs.com/package/cra-template-adrinlol
-[Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
-<!-- prettier-ignore-end -->
+**Red Mobile** - Bir tıkla sat istediğinde geri al.
