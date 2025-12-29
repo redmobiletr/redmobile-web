@@ -13,6 +13,7 @@ import {
   Label,
   Outline,
   Span,
+  MobileButtonContainer,
 } from "./styles";
 
 const Header = ({ t }: { t: TFunction }) => {
@@ -22,14 +23,15 @@ const Header = ({ t }: { t: TFunction }) => {
     setVisibility(!visible);
   };
 
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id) as HTMLDivElement;
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+    setVisibility(false);
+  };
+
   const MenuItem = () => {
-    const scrollTo = (id: string) => {
-      const element = document.getElementById(id) as HTMLDivElement;
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-      setVisibility(false);
-    };
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
@@ -53,13 +55,42 @@ const Header = ({ t }: { t: TFunction }) => {
     );
   };
 
+  const MobileMenuItem = () => {
+    return (
+      <>
+        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+          <Span>{t("About")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+          <Span>{t("Mission")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
+          <Span>{t("Product")}</Span>
+        </CustomNavLinkSmall>
+      </>
+    );
+  };
+
   return (
     <HeaderSection>
       <Container>
-        <Row justify="space-between">
-          <LogoContainer to="/" aria-label="homepage">
-            <div className="logo-text">redmobile</div>
-          </LogoContainer>
+        <Row justify="space-between" align="middle">
+          <Col flex="auto">
+            <Row align="middle" gutter={[12, 0]} wrap={false}>
+              <Col flex="none">
+                <LogoContainer to="/" aria-label="homepage">
+                  <div className="logo-text">redmobile</div>
+                </LogoContainer>
+              </Col>
+              <Col flex="none">
+                <MobileButtonContainer>
+                  <Button onClick={() => scrollTo("product")}>
+                    {t("Contact")}
+                  </Button>
+                </MobileButtonContainer>
+              </Col>
+            </Row>
+          </Col>
           <NotHidden>
             <MenuItem />
           </NotHidden>
@@ -78,7 +109,7 @@ const Header = ({ t }: { t: TFunction }) => {
               </Col>
             </Label>
           </Col>
-          <MenuItem />
+          <MobileMenuItem />
         </Drawer>
       </Container>
     </HeaderSection>

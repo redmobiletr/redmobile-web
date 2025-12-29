@@ -9,6 +9,10 @@ export const HeaderSection = styled("header")`
     align-items: center;
     text-align: center;
   }
+
+  @media only screen and (max-width: 890px) {
+    padding: 0.75rem 0.5rem;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
@@ -105,5 +109,52 @@ export const Span = styled("span")`
     color: #D90404;
     text-underline-position: under;
     text-decoration: #D90404 wavy underline;
+  }
+`;
+
+export const MobileButtonContainer = styled("div")`
+  display: none;
+
+  @media only screen and (max-width: 890px) {
+    display: block;
+    margin-left: 0.75rem;
+  }
+
+  button {
+    white-space: nowrap;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(217, 4, 4, 0.2);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 0.5rem;
+    
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin-left: 0.4rem;
+    
+    button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    margin-left: 0.3rem;
+    
+    button {
+      padding: 0.35rem 0.7rem;
+      font-size: 0.75rem;
+    }
   }
 `;
