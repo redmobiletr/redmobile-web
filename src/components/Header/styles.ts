@@ -35,15 +35,21 @@ export const LogoContainer = styled(Link)`
     }
   }
 
+  @media only screen and (max-width: 768px) {
+    .logo-text {
+      font-size: 26px;
+    }
+  }
+
   @media only screen and (max-width: 480px) {
     .logo-text {
-      font-size: 28px;
+      font-size: 22px;
     }
   }
 
   @media only screen and (max-width: 360px) {
     .logo-text {
-      font-size: 24px;
+      font-size: 18px;
     }
   }
 `;

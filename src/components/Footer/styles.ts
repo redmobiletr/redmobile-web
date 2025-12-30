@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
   background: #D90416;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
+  
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `;
 
 export const Title = styled("h4")`
@@ -40,7 +44,7 @@ export const Extra = styled("section")`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 `;
 
 export const LogoContainer = styled("div")`
@@ -55,15 +59,27 @@ export const LogoContainer = styled("div")`
     letter-spacing: -0.5px;
     line-height: 1;
     color: #ffffff;
+    
+    @media only screen and (max-width: 768px) {
+      font-size: 24px;
+    }
+    
+    @media only screen and (max-width: 480px) {
+      font-size: 20px;
+    }
+    
+    @media only screen and (max-width: 360px) {
+      font-size: 18px;
+    }
   }
 `;
 
 export const Para = styled("div")`
   color: #ffffff;
   font-size: 14px;
-  width: 70%;
   opacity: 0.9;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
 `;
 
 export const Large = styled(Link)`
@@ -88,27 +104,6 @@ export const Large = styled(Link)`
   }
 `;
 
-export const Chat = styled("p")`
-  color: #ffffff;
-  max-width: fit-content;
-  border-bottom: 1px solid #ffffff;
-  cursor: pointer;
-  margin-top: 1rem;
-  transition: all 0.3s ease-in-out;
-  opacity: 0.9;
-  font-family: 'Montserrat', sans-serif;
-
-  &:hover {
-    border-bottom: 1px solid #ffffff;
-    color: #ffffff;
-    opacity: 1;
-  }
-`;
-
-export const Empty = styled("div")`
-  position: relative;
-  height: 53px;
-`;
 
 export const FooterContainer = styled("div")`
   max-width: 510px;
@@ -157,48 +152,43 @@ export const FooterContainer = styled("div")`
   }
 `;
 
-export const Language = styled("h4")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-  }
-`;
-
-export const Label = styled("label")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #ffffff;
-  display: block;
-  margin-bottom: 2rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-    margin-bottom: 1rem;
-  }
-`;
-
-export const LanguageSwitch = styled("div")`
-  cursor: pointer;
-  transition: all 0.1s ease-in-out;
-
-  &:hover,
-  &:active,
-  &:focus {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-`;
-
-export const LanguageSwitchContainer = styled("div")`
+export const ContactInfo = styled("div")`
   display: flex;
-  justify-content: space-between;
-  width: 85px;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+`;
+
+export const ContactItem = styled("div")`
+  display: flex;
+  align-items: center;
+`;
+
+export const EmailLink = styled("a")`
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.9;
+  border-bottom: 1px solid transparent;
+  
+  &:hover {
+    opacity: 1;
+    border-bottom: 1px solid #ffffff;
+  }
+`;
+
+export const Copyright = styled("div")`
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.8;
+  text-align: right;
+  
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 12px;
+  }
 `;
