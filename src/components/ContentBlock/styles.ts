@@ -49,7 +49,7 @@ export const ContentWrapper = styled("div")<{ isHero?: boolean }>`
 // Hero Typography Styles
 export const HeroTitle = styled("h1")`
   font-size: 37px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.15;
   letter-spacing: -0.02em;
   margin: 0px 0px 32px;
@@ -274,5 +274,45 @@ export const ImageCaption = styled("p")`
   @media only screen and (max-width: 768px) {
     font-size: 12px;
     margin: 12px 0 0 0;
+  }
+`;
+
+export const StaticScrollIndicator = styled("div")`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 0;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 3rem;
+  }
+`;
+
+export const StaticScrollArrow = styled("div")`
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  color: #999;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 44px;
+    height: 44px;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
   }
 `;
