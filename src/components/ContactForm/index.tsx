@@ -69,7 +69,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Adınız Soyadınız"
+                  placeholder="Adın Soyadın"
                   value={values.name || ""}
                   onChange={handleChange}
                 />
@@ -80,7 +80,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="email"
-                  placeholder="E-posta Adresiniz"
+                  placeholder="E-posta adresin"
                   value={values.email || ""}
                   onChange={handleChange}
                 />
@@ -91,7 +91,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="tel"
                   name="phone"
-                  placeholder="Telefon Numaranız (Opsiyonel)"
+                  placeholder="Telefon numaran (opsiyonel)"
                   value={values.phone || ""}
                   onChange={handleChange}
                 />
@@ -100,7 +100,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
 
               <FormField>
                 <TextArea
-                  placeholder="Mesajınız"
+                  placeholder="Mesajın"
                   value={values.message || ""}
                   name="message"
                   onChange={handleChange}
@@ -118,12 +118,12 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                       onChange={handleChange}
                     />
                     <CheckboxText>
-                      KVKK Aydınlatma Metni'ni okudum ve kabul ediyorum.
+                      Kişisel verilerimin işlenmesine izin veriyorum.
                     </CheckboxText>
                   </CheckboxLabel>
                   {!values.kvkkConsent && errors.kvkkConsent === false && (
                     <CheckboxError>
-                      <Span>KVKK Aydınlatma Metni'ni kabul etmelisiniz</Span>
+                      <Span>Kişisel verilerinin işlenmesine izin vermelisin</Span>
                     </CheckboxError>
                   )}
                 </CheckboxContainer>

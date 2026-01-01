@@ -1,12 +1,12 @@
 import { Row } from "antd";
 import styled from "styled-components";
 
-export const ContentSection = styled("section")`
+export const ContentSection = styled("section")<{ isHero?: boolean }>`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: ${({ isHero }) => (isHero ? "8rem 0 6rem" : "10rem 0 8rem")};
 
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    padding: ${({ isHero }) => (isHero ? "4rem 0 3rem" : "4rem 0 4rem")};
   }
 `;
 
@@ -14,17 +14,135 @@ export const Content = styled("p")`
   margin: 1.5rem 0 2rem 0;
 `;
 
+export const Subtitle = styled("p")`
+  font-size: 18px;
+  font-weight: 600;
+  color: #D90404;
+  margin: 1.5rem 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+`;
+
 export const StyledRow = styled(Row)`
   flex-direction: ${({ direction }: { direction: string }) =>
     direction === "left" ? "row" : "row-reverse"};
 `;
 
-export const ContentWrapper = styled("div")`
+export const ContentWrapper = styled("div")<{ isHero?: boolean }>`
   position: relative;
-  max-width: 540px;
+  max-width: ${({ isHero }) => (isHero ? "680px" : "540px")};
+
+  @media only screen and (max-width: 1024px) {
+    max-width: ${({ isHero }) => (isHero ? "580px" : "540px")};
+  }
 
   @media only screen and (max-width: 575px) {
     padding-top: 4rem;
+    max-width: 100%;
+  }
+`;
+
+// Hero Typography Styles
+export const HeroTitle = styled("h1")`
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0px 0px 32px;
+  max-width: 680px;
+  font-family: Montserrat, sans-serif;
+  color: inherit;
+  white-space: pre-line;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 28px;
+    max-width: 580px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 24px;
+    max-width: 100%;
+  }
+`;
+
+export const HeroBodyLarge = styled("p")`
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.65;
+  margin: 0px 0px 20px;
+  max-width: 650px;
+  font-family: Montserrat, sans-serif;
+  white-space: pre-line;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0px 0px 18px;
+    max-width: 580px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0px 0px 16px;
+    max-width: 100%;
+  }
+`;
+
+export const HeroBody = styled("p")`
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.65;
+  margin: 0px 0px 20px;
+  max-width: 650px;
+  font-family: Montserrat, sans-serif;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0px 0px 18px;
+    max-width: 580px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0px 0px 16px;
+    max-width: 100%;
+  }
+`;
+
+export const HeroBodyTertiary = styled("p")`
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.65;
+  margin: 0px 0px 32px;
+  max-width: 650px;
+  font-family: Montserrat, sans-serif;
+  white-space: pre-line;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0px 0px 28px;
+    max-width: 580px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0px 0px 24px;
+    max-width: 100%;
   }
 `;
 
@@ -60,5 +178,101 @@ export const ButtonWrapper = styled("div")`
 
   button:last-child {
     margin-left: 0;
+  }
+`;
+
+export const MicroText = styled("p")`
+  font-size: 13px;
+  color: #666;
+  margin: 1rem 0 0 0;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+`;
+
+export const SecondaryLink = styled("a")`
+  font-size: 15px;
+  color: #666;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  
+  &:hover {
+    color: #D90404;
+    text-decoration: underline;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+`;
+
+export const CTASupport = styled("p")`
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0 0 0;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.4;
+  white-space: pre-line;
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+    margin: 6px 0 0 0;
+  }
+`;
+
+export const TrustAnchors = styled("div")`
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin: 16px 0px 0px;
+  font-size: 10px;
+  color: rgb(102, 102, 102);
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    font-size: 10px;
+    margin: 14px 0px 0px;
+  }
+`;
+
+export const TrustAnchorItem = styled("span")`
+  display: flex;
+  align-items: center;
+  
+  &::before {
+    content: "✓";
+    margin-right: 6px;
+    color: #4CAF50;
+    font-size: 14px;
+    font-weight: 600;
+  }
+`;
+
+export const ImageCaption = styled("p")`
+  font-size: 13px;
+  color: #666;
+  margin: 16px 0 0 0;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.4;
+  text-align: center;
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+    margin: 12px 0 0 0;
   }
 `;

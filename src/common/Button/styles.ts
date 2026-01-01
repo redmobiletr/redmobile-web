@@ -16,6 +16,7 @@ export const StyledButton = styled("button")<{ color?: string; disabled?: boolea
   transition: all 0.3s ease-in-out;
   box-shadow: ${(p) => (p.disabled ? "none" : "0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(217, 4, 22, 0.15)")};
   opacity: ${(p) => (p.disabled ? 0.6 : 1)};
+  pointer-events: ${(p) => (p.disabled ? "none" : "auto")};
 
   &:hover,
   &:active,

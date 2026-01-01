@@ -1,0 +1,19 @@
+{
+  "title": "Her şey şeffaf. Her şey senin kontrolünde.",
+  "items": [
+    {
+      "title": "Uzman kontrolü",
+      "description": "Cihazın uzman ekipler tarafından objektif kriterlerle değerlendirilir."
+    },
+    {
+      "title": "Açık fiyatlama",
+      "description": "Fiyatlandırma şeffaf. Gizli ücret yok, sürpriz yok."
+    },
+    {
+      "title": "Güvenli süreç",
+      "description": "Her adım güvenli ve şeffaf. Verilerin korunur, süreç takip edilebilir."
+    }
+  ],
+  "microText": "Sakin, güvenli, senin kontrolünde."
+}
+

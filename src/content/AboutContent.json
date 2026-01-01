@@ -1,16 +1,22 @@
 {
-  "title": "Red Mobile Nedir?",
-  "text": "Red Mobile, ikinci el telefon satışını tek yönlü bir işlem olmaktan çıkaran yenilikçi bir mobil ticaret modelidir. Telefonunu satarken kontrolü kaybetmeden, güvenle ve esnek şekilde ilerlemeni sağlar. Burada amaç sadece satış yapmak değil; kararlarını rahatça verebileceğin, sana alan tanıyan bir deneyim sunmaktır.",
+  "title": "Güven veren bir süreç",
+  "text": "Red Mobile'da her adım şeffaf, her karar senin kontrolünde.",
   "section": [
     {
-      "title": "Geri Alım Opsiyonu",
-      "content": "Telefonunu sattıktan sonra fikrin değişirse sorun değil. Belirli bir süre içinde, aynı cihazı avantajlı koşullarla geri alabilirsin. Böylece acele etmezsin, pişmanlık yaşamazsın, kararın her zaman senin olur.",
+      "title": "Uzman kontrolü",
+      "content": "Cihazın uzman ekipler tarafından objektif kriterlerle değerlendirilir.",
       "icon": "iphone4.png"
     },
     {
-      "title": "Güven ve Şeffaflık",
-      "content": "Tüm cihazlar uzman ekipler tarafından kontrol edilir. Durumları net kriterlerle değerlendirilir ve şeffaf şekilde sunulur. Ne aldığını bilirsin, ne sattığını da.",
+      "title": "Açık fiyatlama",
+      "content": "Fiyatlandırma şeffaf. Gizli ücret yok, sürpriz yok.",
       "icon": "iphone3.png"
+    },
+    {
+      "title": "Güvenli süreç",
+      "content": "Her adım güvenli ve şeffaf. Verilerin korunur, süreç takip edilebilir.",
+      "icon": "iphone2.png"
     }
-  ]
+  ],
+  "microText": ""
 }

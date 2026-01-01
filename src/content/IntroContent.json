@@ -1,9 +1,14 @@
 {
-  "title": "Bir tıkla sat istediğinde geri al.",
-  "text": "Red Mobile ile telefonunu tek bir adımda satabilirsin.İhtiyacın olduğunda ise aynı cihazı kolayca geri alabilirsin.",
+  "title": "Telefonunu satmanın daha bilinçli bir yolu.",
+  "text": "Red Mobile, telefonunu satarken sana zaman, şeffaflık ve kontrol sunar.\nSatarsın, istersen geri alırsın. Karar senin.",
+  "textSecondary": "",
+  "textTertiary": "",
   "button": [
     {
-      "title": "Keşfet"
+      "title": "Hemen Başla"
     }
-  ]
+  ],
+  "ctaSupport": "2 dakikada bilgi alırsın. Karar daha sonra.",
+  "trustAnchors": [],
+  "imageCaption": ""
 }

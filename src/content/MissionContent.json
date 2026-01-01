@@ -1,4 +1,22 @@
 {
-  "title": "Temel Fark: Geri Alım Opsiyonu Modeli",
-  "text": "Red Mobile'ın merkezinde geri alım opsiyonu bulunur. Kullanıcı telefonunu Red Mobile'a satar, cihaz hızlı ve güvenli şekilde nakde çevrilir ve kullanıcıya belirli bir süre içinde aynı cihazını avantajlı koşullarla geri satın alma hakkı tanınır. Bu sayede kullanıcı satış sonrası pişmanlık yaşamaz, kontrol duygusunu kaybetmez ve ihtiyaçlarına göre kararını esnek biçimde yönetir."
+  "title": "Nasıl Çalışır?",
+  "text": "Üç basit adım. Senin kontrolünde.",
+  "section": [
+    {
+      "title": "Cihazını değerlendir",
+      "content": "Telefonunun marka, model ve durumunu belirt. Anında tahmini fiyat al.",
+      "icon": "iphone1.png"
+    },
+    {
+      "title": "Satışını tamamla",
+      "content": "Onayladıktan sonra cihazını gönder. Değerlendirme sonrası ödeme alırsın.",
+      "icon": "iphone2.png"
+    },
+    {
+      "title": "Geri alma hakkın",
+      "content": "İhtiyacın olursa belirli süre içinde aynı cihazı geri alabilirsin. Karar senin.",
+      "icon": "iphone3.png"
+    }
+  ],
+  "microText": "Her adım şeffaf. Her karar senin."
 }

@@ -1,0 +1,24 @@
+{
+  "title": "Nasıl Çalışır",
+  "steps": [
+    {
+      "number": "1",
+      "title": "Telefonunu Seç",
+      "description": "Modelini seç, anında tahmini değerini gör.",
+      "tagline": ""
+    },
+    {
+      "number": "2",
+      "title": "Satış Şeklini Belirle",
+      "description": "Korumalı veya Esnek satış.",
+      "tagline": ""
+    },
+    {
+      "number": "3",
+      "title": "Karar Senin",
+      "description": "İstersen bekle, istersen hemen tamamla.",
+      "tagline": ""
+    }
+  ]
+}
+

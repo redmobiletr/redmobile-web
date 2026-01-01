@@ -62,27 +62,24 @@ const Footer = ({ t }: { t: TFunction }) => {
                 <ContactItem>
                   <Para>İstanbul, Türkiye</Para>
                 </ContactItem>
-                <ContactItem>
-                  <Para>Red Mobile Merkez</Para>
-                </ContactItem>
               </ContactInfo>
             </Col>
             <Col lg={6} md={6} sm={12} xs={24}>
               <Title>Hizmetler</Title>
               <Large to="/" onClick={() => scrollTo("about")}>
-                Geri Alım Opsiyonu
+                Red Mobile Nedir
+              </Large>
+              <Large to="/" onClick={() => scrollTo("mission")}>
+                Nasıl Çalışır
               </Large>
               <Large to="/" onClick={() => scrollTo("product")}>
-                Telefon Satış
-              </Large>
-              <Large to="/" onClick={() => scrollTo("contact")}>
-                Müşteri Desteği
+                Modeller
               </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={24}>
-              <Title>Şirket</Title>
-              <Large to="/" onClick={() => scrollTo("about")}>
-                {t("About")}
+              <Title>Bilgi</Title>
+              <Large to="/" onClick={() => scrollTo("contact")}>
+                İletişim
               </Large>
               <Large to="/">Gizlilik Politikası</Large>
               <Large to="/">Kullanım Şartları</Large>

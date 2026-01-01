@@ -1,4 +1,37 @@
 {
-  "title": "Telefonunu Sat, Tahmini Fiyat Al",
-  "text": "Telefonunuzun marka, model ve kapasitesini seçerek anında tahmini fiyat alabilirsiniz."
+  "title": "İki seçenek. Senin ihtiyacına göre.",
+  "text": "",
+  "models": {
+    "korumali": {
+      "title": "🛡️ Korumalı Satış",
+      "subtitle": "Daha fazla kontrol isteyenler için",
+      "description": "",
+      "features": [
+        "Telefonun belirli bir süre sana ayrılır",
+        "Bu süre içinde garantili geri alım hakkın var",
+        "Cihaz başkasına satılmaz, kontrol tamamen sende"
+      ],
+      "microText": "\"Zamana ihtiyacım var\" diyenler için."
+    },
+    "esnek": {
+      "title": "⚡ Esnek Satış",
+      "subtitle": "Hızlı karar verenler için",
+      "description": "",
+      "features": [
+        "Telefon satılır, ödeme hemen yapılır",
+        "Satılmazsa belirli süre içinde avantajlı fiyatla geri alma şansın vardır",
+        "Satılırsa süreç tamamlanır, geri alım hakkı sona erer"
+      ],
+      "microText": "\"Hızlı olsun\" diyenler için."
+    }
+  },
+  "comparison": {
+    "title": "",
+    "text": "",
+    "microText": ""
+  },
+  "cta": {
+    "korumali": "Korumalı Seç",
+    "esnek": "Esnek Seç"
+  }
 }

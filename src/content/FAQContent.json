@@ -1,0 +1,39 @@
+{
+  "title": "Sık Sorulan Sorular",
+  "questions": [
+    {
+      "question": "Geri alma hakkım ne kadar süre geçerli?",
+      "answer": "Geri alma hakkın, satış sonrası belirlenen süre boyunca geçerlidir. Süre model seçimine göre değişir. Detaylar satış sırasında netleştirilir."
+    },
+    {
+      "question": "Korumalı ve Esnek model arasındaki fark nedir?",
+      "answer": "Korumalı modelde geri alma fiyatı sabittir. Esnek modelde ise piyasa koşullarına göre değişken bir fiyat uygulanır. İhtiyacına göre seçim yapabilirsin."
+    },
+    {
+      "question": "Cihazımın durumu nasıl değerlendirilir?",
+      "answer": "Cihazın uzman ekipler tarafından net kriterlerle değerlendirilir. Fiziksel durum, çalışma performansı ve aksesuar durumu kontrol edilir. Tüm süreç şeffaftır."
+    },
+    {
+      "question": "Geri alma işlemi nasıl gerçekleşir?",
+      "answer": "Geri alma hakkını kullanmak istediğinde, belirlenen süre içinde aynı cihazı geri alabilirsin. Süreç basit ve hızlıdır."
+    },
+    {
+      "question": "Ödeme ne zaman yapılır?",
+      "answer": "Cihazın değerlendirmesi tamamlandıktan sonra ödeme yapılır. Süreç şeffaf ve hızlıdır."
+    },
+    {
+      "question": "Bu bir kredi midir?",
+      "answer": "Hayır. Bu bir kredi değildir. Telefonunu satıyorsun ve belirli süre içinde geri alma hakkın var. Basit ve şeffaf bir model."
+    },
+    {
+      "question": "Hangi telefon markalarını kabul ediyorsunuz?",
+      "answer": "Apple, Samsung, Xiaomi, Huawei, Oppo, Vivo, Realme ve OnePlus markalarını kabul ediyoruz. Diğer markalar için iletişime geçebilirsin."
+    },
+    {
+      "question": "Kutu ve fatura zorunlu mu?",
+      "answer": "Kutu ve fatura zorunlu değildir. Ancak cihazın değerlendirmesinde etkili olabilir. Detaylar satış sırasında netleştirilir."
+    }
+  ],
+  "microText": "Başka sorun mu var? İletişime geç, yanındayız."
+}
+

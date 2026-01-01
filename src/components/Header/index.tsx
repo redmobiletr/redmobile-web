@@ -35,21 +35,21 @@ const Header = ({ t }: { t: TFunction }) => {
   const MenuItem = () => {
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("how-it-works")}>
+          <Span>Nasıl Çalışır</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
+          <Span>Geri Alım Opsiyonları</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
-          <Span>{t("Product")}</Span>
+          <Span>İletişim</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("product")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>Cihaz Sat</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -59,14 +59,14 @@ const Header = ({ t }: { t: TFunction }) => {
   const MobileMenuItem = () => {
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("how-it-works")}>
+          <Span>Nasıl Çalışır</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
+          <Span>Geri Alım Opsiyonları</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
-          <Span>{t("Product")}</Span>
+          <Span>İletişim</Span>
         </CustomNavLinkSmall>
       </>
     );
@@ -77,7 +77,13 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between" align="middle">
           <Col>
-            <LogoContainer to="/" aria-label="homepage">
+            <LogoContainer 
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "/";
+              }}
+              aria-label="homepage"
+            >
               <div className="logo-text">redmobile</div>
             </LogoContainer>
           </Col>
@@ -87,7 +93,7 @@ const Header = ({ t }: { t: TFunction }) => {
           <MobileRightContainer>
             <MobileButtonContainer>
               <Button onClick={() => scrollTo("product")}>
-                {t("Contact")}
+                Cihaz Sat
               </Button>
             </MobileButtonContainer>
             <Burger onClick={toggleButton}>

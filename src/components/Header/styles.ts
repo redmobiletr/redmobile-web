@@ -15,11 +15,12 @@ export const HeaderSection = styled("header")`
   }
 `;
 
-export const LogoContainer = styled(Link)`
+export const LogoContainer = styled("div")`
   display: flex;
   align-items: center;
   text-decoration: none;
   flex-shrink: 0;
+  cursor: pointer;
   
   .logo-text {
     font-family: 'Marble Modern', sans-serif;
