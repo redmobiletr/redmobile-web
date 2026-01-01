@@ -163,8 +163,53 @@ export const ModelMicroText = styled("p")`
   }
 `;
 
-export const CTASection = styled("div")`
-  text-align: center;
-  margin: 0;
+export const ScrollIndicator = styled("div")`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 0;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 3rem;
+  }
+`;
+
+export const ScrollArrow = styled("div")`
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #D90416;
+  border: 1px solid #D90416;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(217, 4, 22, 0.15);
+
+  &:hover {
+    background: #D90416;
+    border-color: #D90416;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(217, 4, 22, 0.2);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 44px;
+    height: 44px;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
 `;
 

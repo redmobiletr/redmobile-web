@@ -40,8 +40,8 @@ const Home = () => {
         icon="iphone3.png"
         id="about"
       />
-      <HowItWorks />
       <ModelsSection />
+      <HowItWorks />
       <Row id="phone-sale-form" gutter={[48, 48]} style={{ padding: "5rem 0", display: "flex", alignItems: "flex-start" }}>
         <Col lg={10} md={10} sm={24} xs={24} style={{ display: "flex", alignItems: "flex-start" }}>
           <PriceDisplay />

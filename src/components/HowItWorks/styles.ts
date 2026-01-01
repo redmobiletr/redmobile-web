@@ -243,52 +243,12 @@ export const ModelFeatureItem = styled("li")`
   }
 `;
 
-export const ScrollIndicator = styled("div")`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4rem;
-  padding: 0;
+export const CTASection = styled("div")`
+  text-align: center;
+  margin: 4rem 0 0 0;
 
   @media only screen and (max-width: 768px) {
-    margin-top: 3rem;
-  }
-`;
-
-export const ScrollArrow = styled("div")`
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background: #f5f5f5;
-  border: 1px solid #e8e8e8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  color: #666;
-
-  &:hover {
-    background: #fff;
-    border-color: #D90404;
-    color: #D90404;
-    transform: translateY(4px);
-    box-shadow: 0 4px 12px rgba(217, 4, 4, 0.15);
-  }
-
-  svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    width: 44px;
-    height: 44px;
-
-    svg {
-      width: 18px;
-      height: 18px;
-    }
+    margin: 3rem 0 0 0;
   }
 `;
 

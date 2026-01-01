@@ -293,13 +293,23 @@ export const StaticScrollArrow = styled("div")`
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #f5f5f5;
-  border: 1px solid #e8e8e8;
+  background: #D90416;
+  border: 1px solid #D90416;
   display: flex;
   justify-content: center;
   align-items: center;
-  pointer-events: none;
-  color: #999;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(217, 4, 22, 0.15);
+
+  &:hover {
+    background: #D90416;
+    border-color: #D90416;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(217, 4, 22, 0.2);
+  }
 
   svg {
     width: 20px;
