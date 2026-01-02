@@ -48,10 +48,21 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
   const { formData, setFormData, priceAnimation, setPriceAnimation } = usePhoneSaleForm();
 
   const handleChange = (name: string, value: any) => {
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+    if (name === "brand") {
+      // Marka değiştiğinde model ve kapasite seçimlerini sıfırla
+      setFormData((prev) => ({
+        ...prev,
+        brand: value,
+        model: "",
+        capacity: "",
+        saleModel: "",
+      }));
+    } else {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+      }));
+    }
   };
 
   const handleModelChange = (model: "korumali" | "esnek" | "") => {
@@ -102,7 +113,7 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
     if (isNaN(numericValue)) return baseEstimatedValue;
 
     if (formData.saleModel === "korumali") {
-      const reducedValue = numericValue * 0.8;
+      const reducedValue = numericValue * 0.885;
       return reducedValue.toLocaleString("tr-TR", {
         maximumFractionDigits: 0,
       }) + " TL";

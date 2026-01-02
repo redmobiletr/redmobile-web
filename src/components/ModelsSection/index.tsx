@@ -49,7 +49,7 @@ const ModelsSection = ({ t }: ModelsSectionProps) => {
 
         <Fade direction="up" triggerOnce delay={100}>
           <ModelsContainer>
-            <Row gutter={[32, 32]} justify="center">
+            <Row gutter={[40, 40]} justify="center">
               <Col lg={12} md={12} sm={24} xs={24}>
                 <ModelCard>
                   <ModelTitle>{ProductContent.models.korumali.title}</ModelTitle>
@@ -61,7 +61,7 @@ const ModelsSection = ({ t }: ModelsSectionProps) => {
                   )}
                   <ModelFeatures>
                     {ProductContent.models.korumali.features.map((feature, index) => (
-                      <ModelFeatureItem key={index}>– {feature}</ModelFeatureItem>
+                      <ModelFeatureItem key={index}>{feature}</ModelFeatureItem>
                     ))}
                   </ModelFeatures>
                   <ModelMicroText>{ProductContent.models.korumali.microText}</ModelMicroText>
@@ -78,7 +78,7 @@ const ModelsSection = ({ t }: ModelsSectionProps) => {
                   )}
                   <ModelFeatures>
                     {ProductContent.models.esnek.features.map((feature, index) => (
-                      <ModelFeatureItem key={index}>– {feature}</ModelFeatureItem>
+                      <ModelFeatureItem key={index}>{feature}</ModelFeatureItem>
                     ))}
                   </ModelFeatures>
                   <ModelMicroText>{ProductContent.models.esnek.microText}</ModelMicroText>

@@ -64,17 +64,16 @@ export const StepCard = styled("div")`
   }
 `;
 
-export const StepNumber = styled("div")`
-  font-size: 32px;
+export const StepNumber = styled("span")`
+  font-size: 24px;
   font-weight: 600;
-  line-height: 1;
-  margin: 0 0 24px 0;
+  line-height: 1.3;
   color: #D90404;
   font-family: Montserrat, sans-serif;
+  margin-right: 4px;
 
   @media only screen and (max-width: 768px) {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 22px;
   }
 `;
 
@@ -85,10 +84,6 @@ export const StepTitle = styled("h3")`
   margin: 0 0 16px 0;
   font-family: Montserrat, sans-serif;
   color: inherit;
-
-  &::first-line {
-    color: #D90404;
-  }
 
   @media only screen and (max-width: 768px) {
     font-size: 22px;

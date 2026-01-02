@@ -4,25 +4,27 @@
   "models": {
     "korumali": {
       "title": "🛡️ Korumalı Satış",
-      "subtitle": "Daha fazla kontrol ve güven isteyenler için.",
+      "subtitle": "Kontrolü elinde tutmak isteyenler için.",
       "description": "",
       "features": [
-        "Telefonun belirli bir süre boyunca senin adına ayrılır",
-        "Bu süre içinde geri alım hakkın güvence altındadır",
-        "Cihaz başkasına satılmaz, karar tamamen sana aittir"
+        "Telefonunu satarsın, ödemen anında hesabına geçer",
+        "Cihaz, belirlenen süre boyunca senin adına ayrılır",
+        "Bu süre içinde geri alma hakkın güvence altındadır",
+        "Süre sonunda cihaz satışa açılır"
       ],
-      "microText": "Karar vermek için zamana ihtiyacın varsa, bu seçenek tam sana göre."
+      "microText": "👉 Kararını aceleye getirmeden ilerlersin."
     },
     "esnek": {
       "title": "⚡ Esnek Satış",
-      "subtitle": "Hızlı karar vermek isteyenler için.",
+      "subtitle": "Daha fazla kazanç isteyenler için.",
       "description": "",
       "features": [
-        "Telefonun satılır, ödemen hemen hesabına geçer",
-        "Satılmazsa, belirli bir süre içinde avantajlı fiyattan geri alma hakkın olur",
-        "Satış gerçekleşirse süreç tamamlanır, geri alım hakkı sona erer"
+        "Telefonunu satarsın, ödemen anında hesabına geçer",
+        "Satıştan sonra, belirli bir süre boyunca geri alma hakkın devam eder",
+        "Bu süre içinde cihaz satışa açık olarak listelenir",
+        "Satış gerçekleştiğinde, süreç doğal olarak tamamlanır"
       ],
-      "microText": "Hızlı ilerlemek isteyenler için pratik bir çözüm."
+      "microText": "👉 Esnek bir deneyim, daha yüksek kazanç fırsatı."
     }
   },
   "comparison": {

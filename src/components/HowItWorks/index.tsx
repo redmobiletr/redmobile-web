@@ -9,6 +9,7 @@ import {
   StepsContainer,
   StepCard,
   StepTitle,
+  StepNumber,
   StepDescription,
   StepTagline,
   CTASection,
@@ -46,7 +47,9 @@ const HowItWorks = ({ t }: HowItWorksProps) => {
               {HowItWorksContent.steps.map((step, index) => (
                 <Col key={index} lg={8} md={8} sm={24} xs={24}>
                   <StepCard>
-                    <StepTitle>{step.number}. {step.title}</StepTitle>
+                    <StepTitle>
+                      <StepNumber>{step.number}.</StepNumber> {step.title}
+                    </StepTitle>
                     {step.description && (
                       <StepDescription>{step.description}</StepDescription>
                     )}
