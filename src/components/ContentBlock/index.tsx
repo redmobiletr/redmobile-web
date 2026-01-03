@@ -60,14 +60,38 @@ const ContentBlock = ({
   // Hero section animated highlight state
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   const animatedTexts = [
-    "Telefonunu sat.",
-    "30 gün içinde geri alma hakkın kalsın.",
+    "Telefonunu satarsın. Süreci sen belirlersin.",
+    "İstersen, 30 gün içinde aynı cihazı geri alabilirsin.",
   ];
 
   useEffect(() => {
     if (id !== "intro") return;
+
+    // Check for reduced motion preference
+    if (typeof window !== "undefined") {
+      const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+      setPrefersReducedMotion(mediaQuery.matches);
+
+      const handleChange = (e: MediaQueryListEvent) => {
+        setPrefersReducedMotion(e.matches);
+      };
+
+      mediaQuery.addEventListener("change", handleChange);
+      return () => mediaQuery.removeEventListener("change", handleChange);
+    }
+  }, [id]);
+
+  useEffect(() => {
+    if (id !== "intro") return;
+    if (prefersReducedMotion) {
+      // Show only second text (B) statically
+      setCurrentTextIndex(1);
+      setIsVisible(true);
+      return;
+    }
 
     let timeouts: NodeJS.Timeout[] = [];
     let isMounted = true;
@@ -75,48 +99,50 @@ const ContentBlock = ({
     const runCycle = (textIndex: number) => {
       if (!isMounted) return;
 
-      // Fade in + slide up
+      // Fade in + slide up: 220ms
       setIsVisible(true);
       
-      // Visible duration: 1500ms
+      // Visible duration: 2600ms
       const visibleTimeout = setTimeout(() => {
         if (!isMounted) return;
         
-        // Fade out: 300ms
-        const fadeOutTimeout = setTimeout(() => {
+        // Cross-fade: Switch to next text (new text fades in while old fades out)
+        const nextIndex = (textIndex + 1) % animatedTexts.length;
+        setCurrentTextIndex(nextIndex);
+        // Note: isVisible stays true during cross-fade, only currentTextIndex changes
+        // This creates the cross-fade effect as both texts transition opacity
+        
+        // After cross-fade completes (220ms), continue with next cycle
+        const crossFadeCompleteTimeout = setTimeout(() => {
           if (!isMounted) return;
-          setIsVisible(false);
           
-          // Wait: 200ms
-          const waitTimeout = setTimeout(() => {
+          // Next text visible duration: 2600ms
+          const nextVisibleTimeout = setTimeout(() => {
             if (!isMounted) return;
-            // Switch to next text
-            const nextIndex = (textIndex + 1) % animatedTexts.length;
-            setCurrentTextIndex(nextIndex);
             
-            // Start next cycle
+            // Start next cycle (will cross-fade back to first text)
             runCycle(nextIndex);
-          }, 200);
-          timeouts.push(waitTimeout);
-        }, 300);
-        timeouts.push(fadeOutTimeout);
-      }, 1500);
+          }, 2600);
+          timeouts.push(nextVisibleTimeout);
+        }, 220);
+        timeouts.push(crossFadeCompleteTimeout);
+      }, 2600);
       timeouts.push(visibleTimeout);
     };
 
-    // Initial delay: 600ms
+    // Initial delay: 150ms (very fast, don't keep user waiting)
     const initialTimeout = setTimeout(() => {
       if (isMounted) {
         runCycle(0);
       }
-    }, 600);
+    }, 150);
     timeouts.push(initialTimeout);
 
     return () => {
       isMounted = false;
       timeouts.forEach((timeout) => clearTimeout(timeout));
     };
-  }, [id, animatedTexts.length]);
+  }, [id, animatedTexts.length, prefersReducedMotion]);
 
   return (
     <ContentSection isHero={id === "intro"}>
@@ -146,15 +172,20 @@ const ContentBlock = ({
                     isAnimating={false}
                     data-gtm="hero_value_proposition"
                   >
-                    {animatedTexts.map((text, index) => (
-                      <HeroAnimatedText
-                        key={index}
-                        isVisible={isVisible && currentTextIndex === index}
-                        isAnimating={isVisible && currentTextIndex === index}
-                      >
-                        {text}
-                      </HeroAnimatedText>
-                    ))}
+                    {animatedTexts.map((text, index) => {
+                      // For cross-fade: show current text, and during transition show both
+                      const isCurrentText = currentTextIndex === index;
+                      const shouldShow = isVisible && isCurrentText;
+                      return (
+                        <HeroAnimatedText
+                          key={index}
+                          isVisible={shouldShow}
+                          isAnimating={shouldShow}
+                        >
+                          {text}
+                        </HeroAnimatedText>
+                      );
+                    })}
                   </HeroAnimatedHighlight>
                   {textSecondary && (
                     <HeroBody>{t(textSecondary)}</HeroBody>
