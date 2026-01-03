@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 import { ContentBlockProps } from "./types";
 import { Button } from "../../common/Button";
@@ -27,6 +28,8 @@ import {
   ImageCaption,
   StaticScrollIndicator,
   StaticScrollArrow,
+  HeroAnimatedHighlight,
+  HeroAnimatedText,
 } from "./styles";
 
 const ContentBlock = ({
@@ -54,6 +57,67 @@ const ContentBlock = ({
     });
   };
 
+  // Hero section animated highlight state
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const animatedTexts = [
+    "Telefonunu sat.",
+    "30 gün içinde geri alma hakkın kalsın.",
+  ];
+
+  useEffect(() => {
+    if (id !== "intro") return;
+
+    let timeouts: NodeJS.Timeout[] = [];
+    let isMounted = true;
+
+    const runCycle = (textIndex: number) => {
+      if (!isMounted) return;
+
+      // Fade in + slide up
+      setIsVisible(true);
+      
+      // Visible duration: 1500ms
+      const visibleTimeout = setTimeout(() => {
+        if (!isMounted) return;
+        
+        // Fade out: 300ms
+        const fadeOutTimeout = setTimeout(() => {
+          if (!isMounted) return;
+          setIsVisible(false);
+          
+          // Wait: 200ms
+          const waitTimeout = setTimeout(() => {
+            if (!isMounted) return;
+            // Switch to next text
+            const nextIndex = (textIndex + 1) % animatedTexts.length;
+            setCurrentTextIndex(nextIndex);
+            
+            // Start next cycle
+            runCycle(nextIndex);
+          }, 200);
+          timeouts.push(waitTimeout);
+        }, 300);
+        timeouts.push(fadeOutTimeout);
+      }, 1500);
+      timeouts.push(visibleTimeout);
+    };
+
+    // Initial delay: 600ms
+    const initialTimeout = setTimeout(() => {
+      if (isMounted) {
+        runCycle(0);
+      }
+    }, 600);
+    timeouts.push(initialTimeout);
+
+    return () => {
+      isMounted = false;
+      timeouts.forEach((timeout) => clearTimeout(timeout));
+    };
+  }, [id, animatedTexts.length]);
+
   return (
     <ContentSection isHero={id === "intro"}>
       <Fade direction={direction} triggerOnce>
@@ -77,6 +141,21 @@ const ContentBlock = ({
                 <>
                   <HeroTitle>{t(title)}</HeroTitle>
                   <HeroBodyLarge>{t(content)}</HeroBodyLarge>
+                  <HeroAnimatedHighlight
+                    isVisible={isVisible}
+                    isAnimating={false}
+                    data-gtm="hero_value_proposition"
+                  >
+                    {animatedTexts.map((text, index) => (
+                      <HeroAnimatedText
+                        key={index}
+                        isVisible={isVisible && currentTextIndex === index}
+                        isAnimating={isVisible && currentTextIndex === index}
+                      >
+                        {text}
+                      </HeroAnimatedText>
+                    ))}
+                  </HeroAnimatedHighlight>
                   {textSecondary && (
                     <HeroBody>{t(textSecondary)}</HeroBody>
                   )}
