@@ -94,13 +94,13 @@ const ContentBlock = ({
                             color?: string;
                             title: string;
                           },
-                          id: number
+                          index: number
                         ) => {
                           // Hero section'daki "Hemen Başla" butonu için data attribute
                           const isHeroStartButton = id === "intro" && item.title === "Hemen Başla";
                           return (
                       <Button
-                        key={id}
+                        key={index}
                         color={item.color}
                         onClick={() => scrollTo("product")}
                         {...(isHeroStartButton ? { "data-gtm": "cta_start_now", "data-cta": "hemen_basla" } : {})}
@@ -155,13 +155,13 @@ const ContentBlock = ({
                                 color?: string;
                                 title: string;
                               },
-                              id: number
+                              index: number
                             ) => {
                               // Hero section'daki "Hemen Başla" butonu için data attribute
                               const isHeroStartButton = id === "intro" && item.title === "Hemen Başla";
                               return (
                       <Button
-                        key={id}
+                        key={index}
                         color={item.color}
                         onClick={() => scrollTo("product")}
                         {...(isHeroStartButton ? { "data-gtm": "cta_start_now", "data-cta": "hemen_basla" } : {})}
