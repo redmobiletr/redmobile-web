@@ -96,11 +96,14 @@ const ContentBlock = ({
                           },
                           id: number
                         ) => {
+                          // Hero section'daki "Hemen Başla" butonu için data attribute
+                          const isHeroStartButton = id === "intro" && item.title === "Hemen Başla";
                           return (
                       <Button
                         key={id}
                         color={item.color}
                         onClick={() => scrollTo("product")}
+                        {...(isHeroStartButton ? { "data-gtm": "cta_start_now", "data-cta": "hemen_basla" } : {})}
                       >
                         {t(item.title)}
                       </Button>
@@ -154,11 +157,14 @@ const ContentBlock = ({
                               },
                               id: number
                             ) => {
+                              // Hero section'daki "Hemen Başla" butonu için data attribute
+                              const isHeroStartButton = id === "intro" && item.title === "Hemen Başla";
                               return (
                       <Button
                         key={id}
                         color={item.color}
                         onClick={() => scrollTo("product")}
+                        {...(isHeroStartButton ? { "data-gtm": "cta_start_now", "data-cta": "hemen_basla" } : {})}
                       >
                         {t(item.title)}
                       </Button>

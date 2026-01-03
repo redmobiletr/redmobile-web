@@ -49,7 +49,7 @@ const Header = ({ t }: { t: TFunction }) => {
           onClick={() => scrollTo("product")}
         >
           <Span>
-            <Button>Cihaz Sat</Button>
+            <Button data-gtm="cta_device_sell" data-cta="cihaz_sat">Cihaz Sat</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -92,7 +92,7 @@ const Header = ({ t }: { t: TFunction }) => {
           </NotHidden>
           <MobileRightContainer>
             <MobileButtonContainer>
-              <Button onClick={() => scrollTo("product")}>
+              <Button onClick={() => scrollTo("product")} data-gtm="cta_device_sell" data-cta="cihaz_sat">
                 Cihaz Sat
               </Button>
             </MobileButtonContainer>
