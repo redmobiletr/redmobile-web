@@ -51,7 +51,7 @@ const RotatingHighlight = ({ className }: RotatingHighlightProps) => {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   const texts = [
-    "Red Back ile %100 geri alma garantisi.",
+    "Red Back ile 30 gün geri alma opsiyonu.",
     "Red Go ile maksimum nakit.",
     "Pişmanlık duymadan satış özgürlüğü.",
   ];

@@ -131,7 +131,7 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
     }
     
     if (formData.saleModel === "redback") {
-      return "Red Back: Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz. %100 geri alma garantisi. Operasyonel Hizmet Bedeli ve Muhafaza ve Güvence Bedeli uygulanır.";
+      return "Red Back: Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz. 30 gün boyunca geri alma opsiyonu. Operasyonel Hizmet Bedeli ve Muhafaza ve Güvence Bedeli uygulanır.";
     }
     
     return "Red Go: En yüksek teklif, anında ödeme. Cihazınız hemen vitrine çıkar. 30 gün geri alma hakkı (stokta olduğu sürece). Operasyonel Hizmet Bedeli uygulanır.";
@@ -405,7 +405,7 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
                             Cihazınız Sizin İçin Rezerve Edilsin.
                           </div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Telefonunuzu bugün satın, ödemenizi alın. Cihazınız 30 gün boyunca satışa sunulmaz, adınıza rezerve edilir. %100 geri alma garantisiyle kontrol sizde kalsın. Garantili Geri Alım Modeli.
+                            Telefonunuzu bugün satın, ödemenizi alın. Cihazınız 30 gün boyunca satışa sunulmaz, adınıza rezerve edilir. 30 gün boyunca geri alma opsiyonuyla kontrol sizde kalsın. Geri Alım Opsiyonlu Model.
                           </div>
                         </div>
                       </Radio>

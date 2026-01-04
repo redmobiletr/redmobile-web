@@ -5,14 +5,14 @@
     "redback": {
       "title": "Red Back",
       "subtitle": "Cihazınız Sizin İçin Rezerve Edilsin.",
-      "description": "Telefonunuzu bugün satın, ödemenizi alın. Cihazınız 30 gün boyunca satışa sunulmaz, adınıza rezerve edilir. %100 geri alma garantisiyle kontrol sizde kalsın.",
+      "description": "Telefonunuzu bugün satın, ödemenizi alın. Cihazınız 30 gün boyunca satışa sunulmaz, adınıza rezerve edilir. Tam geri alma opsiyonuyla kontrol sizde kalsın.",
       "features": [
         "Ödemeniz anında hesabınıza geçer",
         "Cihazınız 30 gün boyunca sizin adınıza rezerve edilir",
         "Satışa çıkmaz, tam kontrol sizde",
-        "%100 geri alma garantisi"
+        "30 gün boyunca geri alma opsiyonu"
       ],
-      "microText": "Garantili Geri Alım Modeli • Operasyonel Hizmet Bedeli • Muhafaza ve Güvence Bedeli"
+      "microText": "Geri Alım Opsiyonlu Model • Operasyonel Hizmet Bedeli • Muhafaza ve Güvence Bedeli"
     },
     "redgo": {
       "title": "Red Go",
