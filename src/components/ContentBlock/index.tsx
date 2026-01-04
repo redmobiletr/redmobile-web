@@ -98,8 +98,8 @@ const ContentBlock = ({
                           },
                           index: number
                         ) => {
-                          // Hero section'daki "Hemen Başla" butonu için data attribute
-                          const isHeroStartButton = id === "intro" && item.title === "Hemen Başla";
+                          // Hero section'daki "Ücretsiz Fiyat Al" butonu için data attribute
+                          const isHeroStartButton = id === "intro" && item.title === "Ücretsiz Fiyat Al";
                           return (
                       <Button
                         key={index}

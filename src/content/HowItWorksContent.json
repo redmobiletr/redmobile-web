@@ -3,20 +3,26 @@
   "steps": [
     {
       "number": "1",
-      "title": "Telefonunu Seç",
-      "description": "Modelini seç, anında tahmini değerini gör.",
+      "title": "Hızlı Teklif Al",
+      "description": "Formu doldur, saniyeler içinde fiyatı gör.",
       "tagline": ""
     },
     {
       "number": "2",
-      "title": "Satış Şeklini Belirle",
-      "description": "Korumalı veya Esnek satış.",
+      "title": "Ücretsiz İnceleme",
+      "description": "Cihazı bize ulaştır, uzmanlarımız son kontrolleri yapsın.",
       "tagline": ""
     },
     {
       "number": "3",
-      "title": "Karar Senin",
-      "description": "İstersen bekle, istersen hemen tamamla.",
+      "title": "Anında Ödeme",
+      "description": "Teklifi onayladığın an paran hesabına geçsin.",
+      "tagline": ""
+    },
+    {
+      "number": "4",
+      "title": "Karar Süreci",
+      "description": "30 gün boyunca geri alabilir veya satışı kesinleştirebilirsin.",
       "tagline": ""
     }
   ]

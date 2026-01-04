@@ -383,7 +383,7 @@ Tahmini Değer: ${basePrice}`;
                     formData.capacity === ""
                   }
                 >
-                  Devam
+                  Sonraki Adım
                 </Button>
               </ButtonWrapper>
             </Col>
@@ -404,17 +404,17 @@ Tahmini Değer: ${basePrice}`;
                     >
                       <Radio value="korumali" style={{ display: "block", width: "100%", marginBottom: "0", padding: "0" }}>
                         <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Korumalı Satış</div>
+                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Güvenceli Satış</div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Zaman ve kontrol odaklı
+                            Cihazınız sizin için rezerve edilir, satışa çıkmaz. Risk sıfır.
                           </div>
                         </div>
                       </Radio>
                       <Radio value="esnek" style={{ display: "block", width: "100%", marginBottom: "0", padding: "0" }}>
                         <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Esnek Satış</div>
+                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Maksimum Kazanç</div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Hız ve netlik odaklı
+                            Piyasa değerinde en yüksek ödeme ve cihaz satılana kadar geri alma opsiyonu.
                           </div>
                         </div>
                       </Radio>
@@ -428,7 +428,7 @@ Tahmini Değer: ${basePrice}`;
                     <OfferPrice>{finalPrice}</OfferPrice>
                   </PriceAnimationWrapper>
                   <OfferDescription>{priceDescription}</OfferDescription>
-                  <OfferSubtext>Bu bir ön değerlendirmedir. Nihai fiyat cihaz kontrolü sonrası netleşir.</OfferSubtext>
+                  <OfferSubtext>Sunulan fiyat ön tekliftir. Nihai değerleme, teknik inceleme sonrası cihaz kondisyonuna göre netleşir.</OfferSubtext>
                 </OfferPriceContainer>
               )}
             </>

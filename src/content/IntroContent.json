@@ -1,14 +1,14 @@
 {
-  "title": "Telefonunu satmanın daha bilinçli bir yolu.",
-  "text": "Red Mobile, telefonunu satarken sana zaman, şeffaflık ve kontrol sunar.\nSatarsın, istersen geri alırsın. Karar senin.",
+  "title": "Telefonunuz Değerinde Nakite Dönüşsün, Kontrol Sizde Kalsın.",
+  "text": "Red Mobile ile cihazınızı bugün nakite çevirin; ister kesin satın, ister 30 gün içinde geri alma hakkınızı kullanın.",
   "textSecondary": "",
   "textTertiary": "",
   "button": [
     {
-      "title": "Hemen Başla"
+      "title": "Ücretsiz Fiyat Al"
     }
   ],
-  "ctaSupport": "2 dakikada bilgi alırsın. Karar daha sonra.",
+  "ctaSupport": "Sunulan fiyat ön tekliftir. Nihai değerleme, teknik inceleme sonrası cihaz kondisyonuna göre netleşir.",
   "trustAnchors": [],
   "imageCaption": ""
 }

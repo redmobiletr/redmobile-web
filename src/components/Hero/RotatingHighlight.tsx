@@ -51,8 +51,10 @@ const RotatingHighlight = ({ className }: RotatingHighlightProps) => {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   const texts = [
-    "30 gün boyunca geri alma hakkı.",
-    "Kararını vermek için zaman tanır.",
+    "30 gün boyunca geri alım garantisi.",
+    "Pişmanlık duymadan satış özgürlüğü.",
+    "Karar vermeniz için size zaman tanır.",
+    "Anında nakit, sınırsız güven.",
   ];
 
   // Check for reduced motion preference

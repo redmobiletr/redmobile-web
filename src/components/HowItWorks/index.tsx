@@ -66,7 +66,7 @@ const HowItWorks = ({ t }: HowItWorksProps) => {
         <Fade direction="up" triggerOnce delay={300}>
           <CTASection>
             <Button onClick={() => scrollTo("phone-sale-form")} data-gtm="cta_device_sell" data-cta="cihaz_sat">
-              Cihazını Sat
+              Nakite Çevir
             </Button>
           </CTASection>
         </Fade>

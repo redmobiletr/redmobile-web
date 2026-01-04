@@ -3,24 +3,24 @@
   "text": "",
   "models": {
     "korumali": {
-      "title": "🛡️ Korumalı Satış",
-      "subtitle": "Kontrolü elinde tutmak isteyenler için.",
+      "title": "🛡️ Güvenceli Satış",
+      "subtitle": "Cihazınız sizin için rezerve edilir, satışa çıkmaz. Risk sıfır.",
       "description": "",
       "features": [
-        "Telefonunu satarsın, ödemen anında hesabına geçer",
-        "Cihaz, belirlenen süre boyunca senin adına ayrılır",
-        "Bu süre içinde geri alma hakkın güvence altındadır",
-        "Süre sonunda cihaz satışa açılır"
+        "Telefonunuzu satarsınız, ödemeniz anında hesabınıza geçer",
+        "Cihazınız belirlenen süre boyunca sizin adınıza ayrılır ve satışa çıkmaz",
+        "Bu süre içinde geri alma hakkınız tam güvence altındadır",
+        "Süre sonunda cihaz satışa açılır, karar tamamen size aittir"
       ],
-      "microText": "👉 Kararını aceleye getirmeden ilerlersin."
+      "microText": "👉 Kararınızı aceleye getirmeden ilerlersiniz."
     },
     "esnek": {
-      "title": "⚡ Esnek Satış",
-      "subtitle": "Daha fazla kazanç isteyenler için.",
+      "title": "⚡ Maksimum Kazanç",
+      "subtitle": "Piyasa değerinde en yüksek ödeme ve cihaz satılana kadar geri alma opsiyonu.",
       "description": "",
       "features": [
-        "Telefonunu satarsın, ödemen anında hesabına geçer",
-        "Satıştan sonra, belirli bir süre boyunca geri alma hakkın devam eder",
+        "Telefonunuzu satarsınız, ödemeniz anında hesabınıza geçer",
+        "Cihazınız satılana kadar geri alma hakkınız devam eder",
         "Bu süre içinde cihaz satışa açık olarak listelenir",
         "Satış gerçekleştiğinde, süreç doğal olarak tamamlanır"
       ],
@@ -33,7 +33,7 @@
     "microText": ""
   },
   "cta": {
-    "korumali": "Korumalı Seç",
-    "esnek": "Esnek Seç"
+    "korumali": "Güvenceli Seç",
+    "esnek": "Maksimum Kazanç Seç"
   }
 }

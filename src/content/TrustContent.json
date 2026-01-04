@@ -2,16 +2,16 @@
   "title": "Her şey şeffaf. Her şey senin kontrolünde.",
   "items": [
     {
-      "title": "Uzman kontrolü",
-      "description": "Cihazın uzman ekipler tarafından objektif kriterlerle değerlendirilir."
+      "title": "Objektif Ekspertiz",
+      "description": "Yapay zeka destekli analiz ve uzman teknisyen onayı ile cihazınızın gerçek değerini belirliyoruz."
     },
     {
-      "title": "Açık fiyatlama",
-      "description": "Fiyatlandırma şeffaf. Gizli ücret yok, sürpriz yok."
+      "title": "Şeffaf Teklif",
+      "description": "Gizli maliyet veya sürpriz kesintiler yok. Gördüğünüz rakam, alacağınız rakamdır."
     },
     {
-      "title": "Güvenli süreç",
-      "description": "Her adım güvenli ve şeffaf. Verilerin korunur, süreç takip edilebilir."
+      "title": "Uçtan Uca Güvence",
+      "description": "Kişisel verileriniz uluslararası standartlarda silinir, tüm süreç yasal mevzuata uygun yürütülür."
     }
   ],
   "microText": "Sakin, güvenli, senin kontrolünde."
