@@ -104,9 +104,17 @@ export const NotHidden = styled("div")`
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 0.5rem;
+  gap: 2rem;
   overflow: hidden;
   max-width: 100%;
+
+  @media only screen and (max-width: 1400px) {
+    gap: 1.5rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    gap: 1.25rem;
+  }
 
   @media only screen and (max-width: 1100px) {
     display: none;
@@ -121,27 +129,35 @@ export const Menu = styled("h5")`
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #101726;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   transition: color 0.2s ease-in;
   margin: 0;
+  padding: 0.5rem 0;
   white-space: nowrap;
   flex-shrink: 0;
+  letter-spacing: -0.01em;
+
+  @media only screen and (max-width: 1400px) {
+    font-size: 1rem;
+  }
 
   @media only screen and (max-width: 1200px) {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   @media only screen and (max-width: 1100px) {
     white-space: normal;
+    padding: 0;
   }
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;
     font-size: 1rem;
     white-space: normal;
+    padding: 0;
   }
 `;
 
@@ -203,6 +219,45 @@ export const MobileRightContainer = styled("div")`
 
   @media only screen and (max-width: 360px) {
     gap: 0.5rem;
+  }
+`;
+
+export const HeaderButtonWrapper = styled("div")`
+  button {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.6rem 1.25rem;
+    margin-top: 0;
+    max-width: none;
+    width: auto;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(217, 4, 4, 0.15);
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(217, 4, 4, 0.25);
+    }
+    
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 4px rgba(217, 4, 4, 0.15);
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    button {
+      font-size: 0.9rem;
+      padding: 0.55rem 1.1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    button {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+    }
   }
 `;
 

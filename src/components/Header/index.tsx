@@ -13,6 +13,7 @@ import {
   Label,
   Outline,
   Span,
+  HeaderButtonWrapper,
   MobileButtonContainer,
   MobileRightContainer,
 } from "./styles";
@@ -47,14 +48,16 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
           <Span>İletişim</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
-          style={{ width: "160px", flexShrink: 0 }}
-          onClick={() => scrollTo("product")}
-        >
-          <Span>
-            <Button data-gtm="cta_device_sell" data-cta="cihaz_sat">Nakite Çevir</Button>
-          </Span>
-        </CustomNavLinkSmall>
+        <HeaderButtonWrapper>
+          <CustomNavLinkSmall
+            style={{ flexShrink: 0, marginLeft: '0.5rem' }}
+            onClick={() => scrollTo("product")}
+          >
+            <Span>
+              <Button data-gtm="cta_device_sell" data-cta="cihaz_sat">Nakite Çevir</Button>
+            </Span>
+          </CustomNavLinkSmall>
+        </HeaderButtonWrapper>
       </>
     );
   };
