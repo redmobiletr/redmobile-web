@@ -131,10 +131,10 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
     }
     
     if (formData.saleModel === "redback") {
-      return "Red Back: Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz.";
+      return "Red Back: Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz. %100 geri alma garantisi. Operasyonel Hizmet Bedeli ve Muhafaza ve Güvence Bedeli uygulanır.";
     }
     
-    return "Red Go: Cihaz satılana kadar geri alım önceliğiniz devam eder.";
+    return "Red Go: En yüksek teklif, anında ödeme. Cihazınız hemen vitrine çıkar. 30 gün geri alma hakkı (stokta olduğu sürece). Operasyonel Hizmet Bedeli uygulanır.";
   }, [formData.saleModel]);
 
 
@@ -406,10 +406,10 @@ Tahmini Değer: ${basePrice}`;
                         <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
                           <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Red Back</div>
                           <div style={{ fontSize: "12px", color: "#666", lineHeight: "1.4", marginBottom: "4px" }}>
-                            Cihazınızı Bugün Satın, Karar Verme Hakkınızı Koruyun.
+                            Cihazınız Sizin İçin Rezerve Edilsin.
                           </div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz. Geri Alım Opsiyonlu Satış.
+                            Telefonunuzu bugün satın, ödemenizi alın. Cihazınız 30 gün boyunca satışa sunulmaz, adınıza rezerve edilir. %100 geri alma garantisiyle kontrol sizde kalsın. Garantili Geri Alım Modeli.
                           </div>
                         </div>
                       </Radio>
@@ -417,10 +417,10 @@ Tahmini Değer: ${basePrice}`;
                         <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
                           <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Red Go</div>
                           <div style={{ fontSize: "12px", color: "#666", lineHeight: "1.4", marginBottom: "4px" }}>
-                            Maksimum Değer, Kesintisiz Hız.
+                            Maksimum Nakit, Öncelikli Satış.
                           </div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Piyasa değerinde en yüksek teklif, anında ödeme. Cihaz satılana kadar geri alım önceliği. Hızlı ve Yüksek Kazançlı Satış.
+                            En yüksek teklifle cihazınızı nakite çevirin. Cihazınız hemen vitrine çıkar; 30 gün geri alma hakkınız ürün stokta olduğu sürece devam eder. Hızlı Satış & Maksimum Kazanç.
                           </div>
                         </div>
                       </Radio>

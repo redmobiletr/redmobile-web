@@ -4,25 +4,25 @@
     {
       "number": "1",
       "title": "Teklifini Gör",
-      "description": "Formu doldur, saniyeler içinde değeri öğren.",
+      "description": "Saniyeler içinde değerleme yapın.",
       "tagline": ""
     },
     {
       "number": "2",
-      "title": "Hızlı Ekspertiz",
-      "description": "Cihazı bize ulaştır, sertifikalı kontrolleri yapalım.",
+      "title": "Sertifikalı Ekspertiz",
+      "description": "Cihazı ulaştırın, uzman kontrolünden geçsin.",
       "tagline": ""
     },
     {
       "number": "3",
       "title": "Anında Ödeme",
-      "description": "Onayladığın an nakit ödemen hesabında.",
+      "description": "Onayladığınız an nakit ödemeniz hesabınızda.",
       "tagline": ""
     },
     {
       "number": "4",
-      "title": "Opsiyon Süreci",
-      "description": "Seçtiğin pakete göre geri alma hakkını kullan veya satışı tamamla.",
+      "title": "Karar Özgürlüğü",
+      "description": "Paketinize göre geri alma hakkınızı kullanın veya satışı tamamlayın.",
       "tagline": ""
     }
   ]

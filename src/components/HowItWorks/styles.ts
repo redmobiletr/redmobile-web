@@ -36,6 +36,9 @@ export const SectionTitle = styled("h2")`
 
 export const StepsContainer = styled("div")`
   margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
   @media only screen and (max-width: 1024px) {
     margin: 0;
@@ -47,20 +50,29 @@ export const StepsContainer = styled("div")`
 `;
 
 export const StepCard = styled("div")`
-  padding: 48px 32px;
+  padding: 40px 28px;
   border-radius: 16px;
   background: #fafafa;
   border: 1px solid #f0f0f0;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 200px;
 
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   }
 
+  @media only screen and (max-width: 1024px) {
+    padding: 36px 24px;
+    min-height: 180px;
+  }
+
   @media only screen and (max-width: 768px) {
     padding: 32px 24px;
+    min-height: auto;
   }
 `;
 

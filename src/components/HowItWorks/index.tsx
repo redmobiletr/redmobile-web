@@ -43,9 +43,9 @@ const HowItWorks = ({ t }: HowItWorksProps) => {
 
         <Fade direction="up" triggerOnce delay={100}>
           <StepsContainer>
-            <Row gutter={[48, 48]} justify="center">
+            <Row gutter={[24, 24]} justify="center">
               {HowItWorksContent.steps.map((step, index) => (
-                <Col key={index} lg={8} md={8} sm={24} xs={24}>
+                <Col key={index} lg={6} md={6} sm={12} xs={24}>
                   <StepCard>
                     <StepTitle>
                       <StepNumber>{step.number}.</StepNumber> {step.title}

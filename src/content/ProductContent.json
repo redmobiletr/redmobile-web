@@ -4,27 +4,27 @@
   "models": {
     "redback": {
       "title": "Red Back",
-      "subtitle": "Cihazınızı Bugün Satın, Karar Verme Hakkınızı Koruyun.",
-      "description": "Nakit ihtiyacınızı anında karşılayın, cihazınızı 30 gün boyunca Red Back güvencesiyle adınıza rezerve edelim. Satıştan cayma ve geri alma hakkıyla kontrol tamamen sizde kalsın.",
+      "subtitle": "Cihazınız Sizin İçin Rezerve Edilsin.",
+      "description": "Telefonunuzu bugün satın, ödemenizi alın. Cihazınız 30 gün boyunca satışa sunulmaz, adınıza rezerve edilir. %100 geri alma garantisiyle kontrol sizde kalsın.",
       "features": [
         "Ödemeniz anında hesabınıza geçer",
         "Cihazınız 30 gün boyunca sizin adınıza rezerve edilir",
         "Satışa çıkmaz, tam kontrol sizde",
-        "30 gün içinde geri alma hakkınız güvence altındadır"
+        "%100 geri alma garantisi"
       ],
-      "microText": "Geri Alım Opsiyonlu Satış • Ticari Hizmet Bedeli"
+      "microText": "Garantili Geri Alım Modeli • Operasyonel Hizmet Bedeli • Muhafaza ve Güvence Bedeli"
     },
     "redgo": {
       "title": "Red Go",
-      "subtitle": "Maksimum Değer, Kesintisiz Hız.",
-      "description": "Cihazınızı piyasa değerinde en yüksek teklifle satın, ödemenizi saniyeler içinde alın. Satış anına kadar devam eden geri alım önceliğiyle profesyonel bir satış deneyimi yaşayın.",
+      "subtitle": "Maksimum Nakit, Öncelikli Satış.",
+      "description": "En yüksek teklifle cihazınızı nakite çevirin. Cihazınız hemen vitrine çıkar; 30 gün geri alma hakkınız ürün stokta olduğu sürece devam eder.",
       "features": [
         "Piyasa değerinde en yüksek teklif",
-        "Ödemeniz saniyeler içinde hesabınıza geçer",
-        "Cihaz satılana kadar geri alım önceliği",
-        "Hızlı ve profesyonel satış deneyimi"
+        "Ödemeniz anında hesabınıza geçer",
+        "Cihazınız hemen vitrine çıkar",
+        "30 gün geri alma hakkı (stokta olduğu sürece)"
       ],
-      "microText": "Hızlı ve Yüksek Kazançlı Satış • Ticari Hizmet Bedeli"
+      "microText": "Hızlı Satış & Maksimum Kazanç • Operasyonel Hizmet Bedeli"
     }
   },
   "comparison": {
