@@ -120,15 +120,21 @@ export const CustomNavLinkSmall = styled(NavLink)`
   font-weight: 500;
   transition: color 0.2s ease-in;
   margin: 0.5rem 1.5rem;
+  white-space: nowrap;
 
   @media only screen and (max-width: 1024px) {
     margin: 0.5rem 1.25rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+  }
+
+  @media only screen and (max-width: 890px) {
+    white-space: normal;
   }
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;
     font-size: 1rem;
+    white-space: normal;
   }
 `;
 
