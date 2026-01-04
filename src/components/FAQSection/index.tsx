@@ -6,6 +6,8 @@ import {
   Section,
   SectionTitle,
   FAQContainer,
+  QuestionText,
+  AnswerText,
   MicroText,
 } from "./styles";
 import FAQContent from "../../content/FAQContent.json";
@@ -29,42 +31,13 @@ const FAQSection = ({ t }: FAQSectionProps) => {
             <Collapse
               accordion
               expandIconPosition="end"
-              style={{
-                background: "#fff",
-                border: "none",
-                borderRadius: "16px",
-              }}
             >
               {FAQContent.questions.map((item, index) => (
                 <Panel
-                  header={
-                    <span style={{ 
-                      fontSize: "18px", 
-                      fontWeight: 600,
-                      fontFamily: "Montserrat, sans-serif",
-                      color: "#101726"
-                    }}>
-                      {item.question}
-                    </span>
-                  }
+                  header={<QuestionText>{item.question}</QuestionText>}
                   key={index}
-                  style={{
-                    marginBottom: "16px",
-                    border: "1px solid #f0f0f0",
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                  }}
                 >
-                  <div style={{
-                    fontSize: "16px",
-                    fontWeight: 300,
-                    lineHeight: "1.7",
-                    color: "#666",
-                    fontFamily: "Montserrat, sans-serif",
-                    padding: "8px 0",
-                  }}>
-                    {item.answer}
-                  </div>
+                  <AnswerText>{item.answer}</AnswerText>
                 </Panel>
               ))}
             </Collapse>
