@@ -17,6 +17,27 @@ export const StyledButton = styled("button")<{ color?: string; disabled?: boolea
   box-shadow: ${(p) => (p.disabled ? "none" : "0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(217, 4, 22, 0.15)")};
   opacity: ${(p) => (p.disabled ? 0.6 : 1)};
   pointer-events: ${(p) => (p.disabled ? "none" : "auto")};
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 11px 0;
+    max-width: 160px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 0.85rem;
+    padding: 10px 0;
+    max-width: 140px;
+  }
+
+  @media only screen and (max-width: 360px) {
+    font-size: 0.8rem;
+    padding: 9px 0;
+    max-width: 130px;
+  }
 
   &:hover,
   &:active,

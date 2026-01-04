@@ -48,7 +48,7 @@ const Header = ({ t }: { t: TFunction }) => {
           <Span>İletişim</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
-          style={{ width: "160px" }}
+          style={{ width: "160px", flexShrink: 0 }}
           onClick={() => scrollTo("product")}
         >
           <Span>
@@ -81,8 +81,8 @@ const Header = ({ t }: { t: TFunction }) => {
   return (
     <HeaderSection>
       <Container>
-        <Row justify="space-between" align="middle">
-          <Col>
+        <Row justify="space-between" align="middle" wrap={false}>
+          <Col flex="0 0 auto">
             <LogoContainer 
               onClick={(e) => {
                 e.preventDefault();
@@ -93,19 +93,23 @@ const Header = ({ t }: { t: TFunction }) => {
               <div className="logo-text">redmobile</div>
             </LogoContainer>
           </Col>
-          <NotHidden>
-            <MenuItem />
-          </NotHidden>
-          <MobileRightContainer>
-            <MobileButtonContainer>
-              <Button onClick={() => scrollTo("product")} data-gtm="cta_device_sell" data-cta="cihaz_sat">
-                Nakite Çevir
-              </Button>
-            </MobileButtonContainer>
-            <Burger onClick={toggleButton}>
-              <Outline />
-            </Burger>
-          </MobileRightContainer>
+          <Col flex="1 1 auto" style={{ minWidth: 0, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
+            <NotHidden>
+              <MenuItem />
+            </NotHidden>
+          </Col>
+          <Col flex="0 0 auto">
+            <MobileRightContainer>
+              <MobileButtonContainer>
+                <Button onClick={() => scrollTo("product")} data-gtm="cta_device_sell" data-cta="cihaz_sat">
+                  Nakite Çevir
+                </Button>
+              </MobileButtonContainer>
+              <Burger onClick={toggleButton}>
+                <Outline />
+              </Burger>
+            </MobileRightContainer>
+          </Col>
         </Row>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
           <Col style={{ marginBottom: "2.5rem" }}>

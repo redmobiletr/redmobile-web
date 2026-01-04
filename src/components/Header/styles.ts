@@ -74,7 +74,7 @@ export const CustomNavLink = styled("div")`
 `;
 
 export const Burger = styled("div")`
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 1100px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +101,14 @@ export const Burger = styled("div")`
 `;
 
 export const NotHidden = styled("div")`
-  @media only screen and (max-width: 890px) {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  overflow: hidden;
+  max-width: 100%;
+
+  @media only screen and (max-width: 1100px) {
     display: none;
   }
 `;
@@ -119,15 +126,15 @@ export const CustomNavLinkSmall = styled(NavLink)`
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   transition: color 0.2s ease-in;
-  margin: 0.5rem 1.5rem;
+  margin: 0;
   white-space: nowrap;
+  flex-shrink: 0;
 
-  @media only screen and (max-width: 1024px) {
-    margin: 0.5rem 1.25rem;
+  @media only screen and (max-width: 1200px) {
     font-size: 0.9rem;
   }
 
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 1100px) {
     white-space: normal;
   }
 
@@ -179,7 +186,7 @@ export const Span = styled("span")`
 export const MobileRightContainer = styled("div")`
   display: none;
 
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 1100px) {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -202,7 +209,7 @@ export const MobileRightContainer = styled("div")`
 export const MobileButtonContainer = styled("div")`
   display: none;
 
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 1100px) {
     display: block;
   }
 
@@ -212,6 +219,8 @@ export const MobileButtonContainer = styled("div")`
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(217, 4, 4, 0.15);
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
     
     &:hover {
       transform: translateY(-1px);
@@ -226,22 +235,22 @@ export const MobileButtonContainer = styled("div")`
 
   @media only screen and (max-width: 768px) {
     button {
-      padding: 0.5rem 1rem;
-      font-size: 0.875rem;
+      padding: 0.5rem 0.9rem;
+      font-size: 0.8rem;
     }
   }
 
   @media only screen and (max-width: 480px) {
     button {
-      padding: 0.45rem 0.85rem;
-      font-size: 0.8rem;
+      padding: 0.45rem 0.75rem;
+      font-size: 0.75rem;
     }
   }
 
   @media only screen and (max-width: 360px) {
     button {
-      padding: 0.4rem 0.75rem;
-      font-size: 0.75rem;
+      padding: 0.4rem 0.65rem;
+      font-size: 0.7rem;
     }
   }
 `;
