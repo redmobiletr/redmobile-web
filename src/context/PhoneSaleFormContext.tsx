@@ -5,7 +5,7 @@ interface PhoneSaleFormData {
   model: string;
   capacity: string;
   hasBox: boolean;
-  saleModel: "korumali" | "esnek" | "";
+  saleModel: "redback" | "redgo" | "";
   showModelSelection: boolean;
 }
 

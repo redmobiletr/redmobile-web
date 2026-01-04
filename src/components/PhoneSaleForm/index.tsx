@@ -65,7 +65,7 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
     }
   };
 
-  const handleModelChange = (model: "korumali" | "esnek" | "") => {
+  const handleModelChange = (model: "redback" | "redgo" | "") => {
     setFormData((prev) => ({
       ...prev,
       saleModel: model,
@@ -112,12 +112,12 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
 
     if (isNaN(numericValue)) return baseEstimatedValue;
 
-    if (formData.saleModel === "korumali") {
+    if (formData.saleModel === "redback") {
       const reducedValue = numericValue * 0.885;
       return reducedValue.toLocaleString("tr-TR", {
         maximumFractionDigits: 0,
       }) + " TL";
-    } else if (formData.saleModel === "esnek") {
+    } else if (formData.saleModel === "redgo") {
       return baseEstimatedValue;
     }
 
@@ -130,11 +130,11 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
       return "Bu değer, cihazın genel durumuna göre hesaplanan tahmini satış bedelidir.";
     }
     
-    if (formData.saleModel === "korumali") {
-      return "Cihaz belirli süre boyunca sana ayrıldığı için fiyatlandırma daha düşük tutulur.";
+    if (formData.saleModel === "redback") {
+      return "Red Back: Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz.";
     }
     
-    return "Cihaz satılana kadar geri alım hakkın bulunur.";
+    return "Red Go: Cihaz satılana kadar geri alım önceliğiniz devam eder.";
   }, [formData.saleModel]);
 
 
@@ -193,7 +193,7 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
 
     const brand = brandMap[formData.brand] || formData.brand;
     
-    const saleModelText = formData.saleModel === "korumali" ? "Korumalı Satış" : "Esnek Satış";
+    const saleModelText = formData.saleModel === "redback" ? "Red Back" : "Red Go";
     
     // Get price for message
     const price = (phonePricesData as PhonePrice[]).find(
@@ -331,7 +331,7 @@ Tahmini Değer: ${basePrice}`;
               <Label>Model</Label>
               <SelectWrapper>
                 <Select
-                  placeholder="Model seç"
+                  placeholder="Model seçiniz..."
                   value={formData.model || undefined}
                   onChange={(value) => {
                     handleChange("model", value);
@@ -354,7 +354,7 @@ Tahmini Değer: ${basePrice}`;
               <Label>Kapasite</Label>
               <SelectWrapper>
                 <Select
-                  placeholder="Kapasite seç"
+                  placeholder="Cihazınızın kapasitesi nedir?"
                   value={formData.capacity || undefined}
                   onChange={(value) => handleChange("capacity", value)}
                   style={{ width: "100%" }}
@@ -402,19 +402,25 @@ Tahmini Değer: ${basePrice}`;
                       onChange={(e) => handleModelChange(e.target.value)}
                       style={{ width: "100%" }}
                     >
-                      <Radio value="korumali" style={{ display: "block", width: "100%", marginBottom: "0", padding: "0" }}>
+                      <Radio value="redback" style={{ display: "block", width: "100%", marginBottom: "0", padding: "0" }}>
                         <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Güvenceli Satış</div>
+                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Red Back</div>
+                          <div style={{ fontSize: "12px", color: "#666", lineHeight: "1.4", marginBottom: "4px" }}>
+                            Cihazınızı Bugün Satın, Karar Verme Hakkınızı Koruyun.
+                          </div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Cihazınız sizin için rezerve edilir, satışa çıkmaz. Risk sıfır.
+                            Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz. Geri Alım Opsiyonlu Satış.
                           </div>
                         </div>
                       </Radio>
-                      <Radio value="esnek" style={{ display: "block", width: "100%", marginBottom: "0", padding: "0" }}>
+                      <Radio value="redgo" style={{ display: "block", width: "100%", marginBottom: "0", padding: "0" }}>
                         <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Maksimum Kazanç</div>
+                          <div style={{ fontWeight: 600, marginBottom: "4px", lineHeight: "1.4", fontSize: "16px", color: "#101726" }}>Red Go</div>
+                          <div style={{ fontSize: "12px", color: "#666", lineHeight: "1.4", marginBottom: "4px" }}>
+                            Maksimum Değer, Kesintisiz Hız.
+                          </div>
                           <div style={{ fontSize: "13px", color: "#666", lineHeight: "1.5" }}>
-                            Piyasa değerinde en yüksek ödeme ve cihaz satılana kadar geri alma opsiyonu.
+                            Piyasa değerinde en yüksek teklif, anında ödeme. Cihaz satılana kadar geri alım önceliği. Hızlı ve Yüksek Kazançlı Satış.
                           </div>
                         </div>
                       </Radio>

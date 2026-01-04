@@ -3,26 +3,26 @@
   "steps": [
     {
       "number": "1",
-      "title": "Hızlı Teklif Al",
-      "description": "Formu doldur, saniyeler içinde fiyatı gör.",
+      "title": "Teklifini Gör",
+      "description": "Formu doldur, saniyeler içinde değeri öğren.",
       "tagline": ""
     },
     {
       "number": "2",
-      "title": "Ücretsiz İnceleme",
-      "description": "Cihazı bize ulaştır, uzmanlarımız son kontrolleri yapsın.",
+      "title": "Hızlı Ekspertiz",
+      "description": "Cihazı bize ulaştır, sertifikalı kontrolleri yapalım.",
       "tagline": ""
     },
     {
       "number": "3",
       "title": "Anında Ödeme",
-      "description": "Teklifi onayladığın an paran hesabına geçsin.",
+      "description": "Onayladığın an nakit ödemen hesabında.",
       "tagline": ""
     },
     {
       "number": "4",
-      "title": "Karar Süreci",
-      "description": "30 gün boyunca geri alabilir veya satışı kesinleştirebilirsin.",
+      "title": "Opsiyon Süreci",
+      "description": "Seçtiğin pakete göre geri alma hakkını kullan veya satışı tamamla.",
       "tagline": ""
     }
   ]

@@ -52,36 +52,36 @@ const ModelsSection = ({ t }: ModelsSectionProps) => {
             <Row gutter={[40, 40]} justify="center">
               <Col lg={12} md={12} sm={24} xs={24}>
                 <ModelCard>
-                  <ModelTitle>{ProductContent.models.korumali.title}</ModelTitle>
-                  {ProductContent.models.korumali.subtitle && (
-                    <ModelSubtitle>{ProductContent.models.korumali.subtitle}</ModelSubtitle>
+                  <ModelTitle>{ProductContent.models.redback.title}</ModelTitle>
+                  {ProductContent.models.redback.subtitle && (
+                    <ModelSubtitle>{ProductContent.models.redback.subtitle}</ModelSubtitle>
                   )}
-                  {ProductContent.models.korumali.description && (
-                    <ModelDescription>{ProductContent.models.korumali.description}</ModelDescription>
+                  {ProductContent.models.redback.description && (
+                    <ModelDescription>{ProductContent.models.redback.description}</ModelDescription>
                   )}
                   <ModelFeatures>
-                    {ProductContent.models.korumali.features.map((feature, index) => (
+                    {ProductContent.models.redback.features.map((feature, index) => (
                       <ModelFeatureItem key={index}>{feature}</ModelFeatureItem>
                     ))}
                   </ModelFeatures>
-                  <ModelMicroText>{ProductContent.models.korumali.microText}</ModelMicroText>
+                  <ModelMicroText>{ProductContent.models.redback.microText}</ModelMicroText>
                 </ModelCard>
               </Col>
               <Col lg={12} md={12} sm={24} xs={24}>
                 <ModelCard>
-                  <ModelTitle>{ProductContent.models.esnek.title}</ModelTitle>
-                  {ProductContent.models.esnek.subtitle && (
-                    <ModelSubtitle>{ProductContent.models.esnek.subtitle}</ModelSubtitle>
+                  <ModelTitle>{ProductContent.models.redgo.title}</ModelTitle>
+                  {ProductContent.models.redgo.subtitle && (
+                    <ModelSubtitle>{ProductContent.models.redgo.subtitle}</ModelSubtitle>
                   )}
-                  {ProductContent.models.esnek.description && (
-                    <ModelDescription>{ProductContent.models.esnek.description}</ModelDescription>
+                  {ProductContent.models.redgo.description && (
+                    <ModelDescription>{ProductContent.models.redgo.description}</ModelDescription>
                   )}
                   <ModelFeatures>
-                    {ProductContent.models.esnek.features.map((feature, index) => (
+                    {ProductContent.models.redgo.features.map((feature, index) => (
                       <ModelFeatureItem key={index}>{feature}</ModelFeatureItem>
                     ))}
                   </ModelFeatures>
-                  <ModelMicroText>{ProductContent.models.esnek.microText}</ModelMicroText>
+                  <ModelMicroText>{ProductContent.models.redgo.microText}</ModelMicroText>
                 </ModelCard>
               </Col>
             </Row>

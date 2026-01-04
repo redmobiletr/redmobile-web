@@ -1,30 +1,30 @@
 {
   "title": "İki seçenek. Senin ihtiyacına göre.",
-  "text": "",
+  "text": "Bu bir finansal kredi ürünü değildir; teknoloji odaklı, esnek bir geri alım ve satış platformudur.",
   "models": {
-    "korumali": {
-      "title": "🛡️ Güvenceli Satış",
-      "subtitle": "Cihazınız sizin için rezerve edilir, satışa çıkmaz. Risk sıfır.",
-      "description": "",
+    "redback": {
+      "title": "Red Back",
+      "subtitle": "Cihazınızı Bugün Satın, Karar Verme Hakkınızı Koruyun.",
+      "description": "Nakit ihtiyacınızı anında karşılayın, cihazınızı 30 gün boyunca Red Back güvencesiyle adınıza rezerve edelim. Satıştan cayma ve geri alma hakkıyla kontrol tamamen sizde kalsın.",
       "features": [
-        "Telefonunuzu satarsınız, ödemeniz anında hesabınıza geçer",
-        "Cihazınız belirlenen süre boyunca sizin adınıza ayrılır ve satışa çıkmaz",
-        "Bu süre içinde geri alma hakkınız tam güvence altındadır",
-        "Süre sonunda cihaz satışa açılır, karar tamamen size aittir"
+        "Ödemeniz anında hesabınıza geçer",
+        "Cihazınız 30 gün boyunca sizin adınıza rezerve edilir",
+        "Satışa çıkmaz, tam kontrol sizde",
+        "30 gün içinde geri alma hakkınız güvence altındadır"
       ],
-      "microText": "👉 Kararınızı aceleye getirmeden ilerlersiniz."
+      "microText": "Geri Alım Opsiyonlu Satış • Ticari Hizmet Bedeli"
     },
-    "esnek": {
-      "title": "⚡ Maksimum Kazanç",
-      "subtitle": "Piyasa değerinde en yüksek ödeme ve cihaz satılana kadar geri alma opsiyonu.",
-      "description": "",
+    "redgo": {
+      "title": "Red Go",
+      "subtitle": "Maksimum Değer, Kesintisiz Hız.",
+      "description": "Cihazınızı piyasa değerinde en yüksek teklifle satın, ödemenizi saniyeler içinde alın. Satış anına kadar devam eden geri alım önceliğiyle profesyonel bir satış deneyimi yaşayın.",
       "features": [
-        "Telefonunuzu satarsınız, ödemeniz anında hesabınıza geçer",
-        "Cihazınız satılana kadar geri alma hakkınız devam eder",
-        "Bu süre içinde cihaz satışa açık olarak listelenir",
-        "Satış gerçekleştiğinde, süreç doğal olarak tamamlanır"
+        "Piyasa değerinde en yüksek teklif",
+        "Ödemeniz saniyeler içinde hesabınıza geçer",
+        "Cihaz satılana kadar geri alım önceliği",
+        "Hızlı ve profesyonel satış deneyimi"
       ],
-      "microText": "👉 Esnek bir deneyim, daha yüksek kazanç fırsatı."
+      "microText": "Hızlı ve Yüksek Kazançlı Satış • Ticari Hizmet Bedeli"
     }
   },
   "comparison": {
@@ -33,7 +33,7 @@
     "microText": ""
   },
   "cta": {
-    "korumali": "Güvenceli Seç",
-    "esnek": "Maksimum Kazanç Seç"
+    "redback": "Red Back Seç",
+    "redgo": "Red Go Seç"
   }
 }
