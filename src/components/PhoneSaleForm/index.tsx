@@ -203,15 +203,11 @@ const PhoneSaleForm = ({ t }: PhoneSaleFormProps) => {
         p.capacity === formData.capacity
     );
     
-    const basePrice = price ? price.offer : "Belirlenemedi";
+    const deviceInfo = `${brand} ${formData.model} ${formData.capacity}`;
     
-    const messageText = `Telefon Satış Talebi:
+    const messageText = `Seçtiğiniz paket ve cihaz bilgileri otomatik olarak eklenmiştir.
 
-Marka: ${brand}
-Model: ${formData.model}
-Kapasite: ${formData.capacity}
-Satış Modeli: ${saleModelText}
-Tahmini Değer: ${basePrice}`;
+Ön Başvuru Özeti: ${deviceInfo} - Seçilen Paket: ${saleModelText}. Süreç ve son ekspertiz işlemleri hakkında bilgi almak istiyorum.`;
 
     setMessage(messageText);
     

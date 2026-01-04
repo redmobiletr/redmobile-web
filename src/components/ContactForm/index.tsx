@@ -99,6 +99,20 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               </FormField>
 
               <FormField>
+                {contextMessage && contextMessage.trim() !== "" && (
+                  <div style={{ 
+                    fontSize: "12px", 
+                    color: "#666", 
+                    marginBottom: "8px", 
+                    padding: "8px 12px", 
+                    background: "#f0f7ff", 
+                    borderRadius: "6px",
+                    border: "1px solid #d0e7ff",
+                    fontFamily: "Montserrat, sans-serif"
+                  }}>
+                    ℹ️ Seçtiğiniz paket ve cihaz bilgileri otomatik olarak eklenmiştir.
+                  </div>
+                )}
                 <TextArea
                   placeholder="Mesajın"
                   value={values.message || ""}
@@ -118,12 +132,12 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                       onChange={handleChange}
                     />
                     <CheckboxText>
-                      Kişisel verilerimin işlenmesine izin veriyorum.
+                      Kişisel verilerin işlenmesine ilişkin <a href="/aydinlatma-metni" target="_blank" rel="noopener noreferrer" style={{ color: "#D90404", textDecoration: "underline" }}>Aydınlatma Metni</a>'ni okudum ve onaylıyorum.
                     </CheckboxText>
                   </CheckboxLabel>
                   {!values.kvkkConsent && errors.kvkkConsent === false && (
                     <CheckboxError>
-                      <Span>Kişisel verilerinin işlenmesine izin vermelisin</Span>
+                      <Span>Kişisel verilerin işlenmesine ilişkin Aydınlatma Metni'ni okudum ve onaylıyorum.</Span>
                     </CheckboxError>
                   )}
                 </CheckboxContainer>
@@ -145,7 +159,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                     !!errors.message
                   }
                 >
-                  {isSubmitting ? "Gönderiliyor..." : t("Submit")}
+                  {isSubmitting ? "Gönderiliyor..." : "Danışmanımızla İletişime Geç"}
                 </Button>
               </ButtonContainer>
             </FormGroup>
