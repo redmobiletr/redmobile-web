@@ -2,38 +2,58 @@
   "title": "Sık Sorulan Sorular",
   "questions": [
     {
-      "question": "Geri alma hakkım ne kadar süre geçerli?",
-      "answer": "Geri alma hakkın, satış sonrası belirlenen süre boyunca geçerlidir. Süre model seçimine göre değişir. Detaylar satış sırasında netleştirilir."
+      "question": "Red Mobile tam olarak nedir?",
+      "answer": "Red Mobile, cihazınızı piyasa değerinde nakite çevirmenizi sağlayan yeni nesil bir teknoloji ticaret platformudur. Klasik satıştan farkımız; cihazı satın alırken size sözleşme ile 30 gün boyunca cihazınızı geri satın alma opsiyonu (öncelik hakkı) tanımlamamızdır."
     },
     {
-      "question": "Red Back ve Red Go arasındaki fark nedir?",
-      "answer": "Red Back: Cihazınız 30 gün boyunca sizin adınıza rezerve edilir, satışa çıkmaz. Geri Alım Opsiyonlu Satış. Red Go: Piyasa değerinde en yüksek teklif, anında ödeme. Cihaz satılana kadar geri alım önceliği. Hızlı ve Yüksek Kazançlı Satış. İhtiyacınıza göre seçim yapabilirsiniz."
+      "question": "Red Back ve Red Go paketleri arasındaki fark nedir?",
+      "answer": "Red Back: Cihazınız satın alındığı an rezerve edilir ve 30 gün boyunca üçüncü şahıslara satışı kapatılır. Geri alma hakkınız Red Mobile güvencesiyle sadece size aittir. Red Go: Maksimum nakit ödemeyi alırsınız ve cihazınız hemen vitrine çıkar. Cihaz satılmadığı sürece 30 gün boyunca geri satın alma önceliği sizdedir."
     },
     {
-      "question": "Cihazımın durumu nasıl değerlendirilir?",
-      "answer": "Cihazın uzman ekipler tarafından net kriterlerle değerlendirilir. Fiziksel durum, çalışma performansı ve aksesuar durumu kontrol edilir. Tüm süreç şeffaftır."
+      "question": "Geri alırken neden \"Hizmet Bedeli\" ödeniyor?",
+      "answer": "Bu bedel bir faiz veya komisyon değildir. Cihazın mülkiyeti Red Mobile'dayken sunulan profesyonel işlemlerin maliyetidir: Güvenli Veri Temizliği (kişisel verilerin profesyonel yöntemlerle geri döndürülemez şekilde temizlenmesi), Teknik Bakım ve Kontrol (teknik uzmanlarımız tarafından yapılan iç-dış temizlik, fonksiyon testleri ve performans optimizasyonu), Güvenli Depolama (cihazın 30 gün boyunca korunaklı alanlarda muhafaza edilmesi)."
     },
     {
-      "question": "Geri alma işlemi nasıl gerçekleşir?",
-      "answer": "Geri alma hakkını kullanmak istediğinde, belirlenen süre içinde aynı cihazı geri alabilirsin. Süreç basit ve hızlıdır."
+      "question": "Geri satın alma fiyatı nasıl hesaplanır?",
+      "answer": "Şeffaflık temel ilkemizdir. Geri satın alma tutarı; [Size Ödenen Alış Bedeli] + [Operasyonel Hizmet Bedeli] toplamıdır. Red Mobile, geri alım işlemlerinde cihazın güncel piyasa değerini veya kâr marjlı vitrin satış fiyatını size yansıtmaz."
     },
     {
-      "question": "Ödeme ne zaman yapılır?",
-      "answer": "Cihazın değerlendirmesi tamamlandıktan sonra ödeme yapılır. Süreç şeffaf ve hızlıdır."
+      "question": "Mülkiyet ne zaman devredilir?",
+      "answer": "Cihazın mülkiyeti, taraflar arasında imzalanan satış sözleşmesi ve ödemenin yapılmasıyla birlikte tamamen Red Mobile'a geçer. Geri alım süreci, müşteriye tanınan hukuki bir \"öncelikli alım opsiyonu\"dur."
     },
     {
-      "question": "Bu bir kredi midir?",
-      "answer": "Hayır. Bu bir finansal kredi ürünü değildir; teknoloji odaklı, esnek bir geri alım ve satış platformudur. Telefonunuzu satıyorsunuz ve seçtiğiniz pakete göre geri alma hakkınız var. Basit ve şeffaf bir model."
+      "question": "Cihaz muhafaza süresinde zarar görürse veya afet durumunda ne olur?",
+      "answer": "Cihazın geri alım opsiyonu, cihazın mevcut fiziki durumu ve stokta bulunma şartına bağlıdır. Mücbir sebepler (deprem, yangın vb.) veya teknik arızalar nedeniyle cihazın vasfını yitirmesi durumunda geri alım hakkı sona erer. Satış anında aldığınız ödeme sizde kalır, Red Mobile'dan ek bir cihaz iadesi veya tazminat talep edilemez."
     },
     {
-      "question": "Hangi telefon markalarını kabul ediyorsunuz?",
-      "answer": "Apple, Samsung, Xiaomi, Huawei, Oppo, Vivo, Realme ve OnePlus markalarını kabul ediyoruz. Diğer markalar için iletişime geçebilirsin."
+      "question": "Cihazın teknik geçmişinden (Gizli Ayıp) kim sorumludur?",
+      "answer": "Teknik uzmanlarımızın incelemesi o anki durumu kapsar. Ancak cihazın geçmişinden kaynaklanan ve beyan edilmeyen (anakart müdahalesi, sıvı teması vb.) gizli ayıplardan doğan tüm sorumluluk satıcıya (müşteriye) aittir."
     },
     {
-      "question": "Kutu ve fatura zorunlu mu?",
-      "answer": "Kutu ve fatura zorunlu değildir. Ancak cihazın değerlendirmesinde etkili olabilir. Detaylar satış sırasında netleştirilir."
+      "question": "IMEI ve Kayıt durumundan kim sorumludur?",
+      "answer": "Cihazın IMEI kaydının yasal olması ve BTK kayıtlarında sorun bulunmaması müşterinin sorumluluğundadır. Yasal olmayan cihazlarla ilgili tüm hukuki muhataplık doğrudan müşteriye aittir."
+    },
+    {
+      "question": "Kimlik doğrulaması zorunlu mu?",
+      "answer": "Evet. Yasal mevzuatlar gereği her işlemde T.C. Kimlik doğrulaması yapılır. Cihazın yasal sahibi olduğunuzu beyan etmeniz gerekmektedir."
+    },
+    {
+      "question": "Cihazı geri almazsam borçlu kalır mıyım?",
+      "answer": "Hayır. Geri satın alma bir zorunluluk değil, bir haktır. 30 gün sonunda cihazı geri almazsanız hiçbir borç veya yükümlülük altına girmezsiniz. İşlem kesin satış olarak sonuçlanır."
+    },
+    {
+      "question": "Kutu ve aksesuarlar sürece dahil mi?",
+      "answer": "Cihazla birlikte teslim edilen kutu ve aksesuarlar, cihazın ayrılmaz parçası olarak muhafaza edilir. Cihaz geri alınmadığı takdirde bu parçalar da genel stoklarımıza dahil edilir."
+    },
+    {
+      "question": "Verilerim gerçekten siliniyor mu?",
+      "answer": "Evet. Cihaz teknik birimimize ulaştığı an uzmanlarımız cihazı standartlara uygun şekilde sıfırlar. Bu işlem kişisel güvenliğiniz için zorunlu bir prosedürdür."
+    },
+    {
+      "question": "Red Mobile bir finans kuruluşu mudur?",
+      "answer": "Hayır. Red Mobile; banka, finansman şirketi veya kredi kuruluşu değildir. Red Mobile, mülkiyetin devri esasına dayalı ticaret yapan bir teknoloji operasyon ve cihaz alım-satım platformudur."
     }
   ],
-  "microText": "Başka sorun mu var? İletişime geç, yanındayız."
+  "microText": "Başka sorunuz mu var? İletişime geç, yanındayız."
 }
 
