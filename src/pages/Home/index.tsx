@@ -11,6 +11,7 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const HowItWorks = lazy(() => import("../../components/HowItWorks"));
 const ModelsSection = lazy(() => import("../../components/ModelsSection"));
 const TrustSection = lazy(() => import("../../components/TrustSection"));
+const FAQSection = lazy(() => import("../../components/FAQSection"));
 const PhoneSaleForm = lazy(() => import("../../components/PhoneSaleForm"));
 const PriceDisplay = lazy(() => import("../../components/PhoneSaleForm/PriceDisplay"));
 
@@ -51,6 +52,7 @@ const Home = () => {
         </Col>
       </Row>
       <TrustSection />
+      <FAQSection />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
