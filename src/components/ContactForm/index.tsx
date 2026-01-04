@@ -159,7 +159,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                     !!errors.message
                   }
                 >
-                  {isSubmitting ? "Gönderiliyor..." : "Danışmanımızla İletişime Geç"}
+                  {isSubmitting ? "Gönderiliyor..." : "Gönder"}
                 </Button>
               </ButtonContainer>
             </FormGroup>
