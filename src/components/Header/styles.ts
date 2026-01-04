@@ -114,15 +114,21 @@ export const Menu = styled("h5")`
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #101726;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   transition: color 0.2s ease-in;
-  margin: 0.5rem 2rem;
+  margin: 0.5rem 1.5rem;
+
+  @media only screen and (max-width: 1024px) {
+    margin: 0.5rem 1.25rem;
+    font-size: 0.95rem;
+  }
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;
+    font-size: 1rem;
   }
 `;
 

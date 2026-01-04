@@ -41,11 +41,14 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>Geri Alım Opsiyonları</Span>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("faq")}>
+          <Span>SSS</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
           <Span>İletişim</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
-          style={{ width: "180px" }}
+          style={{ width: "160px" }}
           onClick={() => scrollTo("product")}
         >
           <Span>
@@ -64,6 +67,9 @@ const Header = ({ t }: { t: TFunction }) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>Geri Alım Opsiyonları</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("faq")}>
+          <Span>SSS</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
           <Span>İletişim</Span>
